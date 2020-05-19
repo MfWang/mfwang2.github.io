@@ -1,0 +1,4523 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-19T16:28:47+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2020/05/19/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-05-19T16:12:02+08:00</published><updated>2020-05-19T16:12:02+08:00</updated><id>http://localhost:4000/jekyll/update/2020/05/19/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/05/19/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Where &lt;code class=&quot;highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">谷歌浏览器获取本地文件内容</title><link href="http://localhost:4000/2020/05/19/%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8%E8%8E%B7%E5%8F%96%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6%E5%86%85%E5%AE%B9.html" rel="alternate" type="text/html" title="谷歌浏览器获取本地文件内容" /><published>2020-05-19T00:00:00+08:00</published><updated>2020-05-19T00:00:00+08:00</updated><id>http://localhost:4000/2020/05/19/%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8%E8%8E%B7%E5%8F%96%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6%E5%86%85%E5%AE%B9</id><content type="html" xml:base="http://localhost:4000/2020/05/19/%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8%E8%8E%B7%E5%8F%96%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6%E5%86%85%E5%AE%B9.html">&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$(&quot;.common&quot;).load(&quot;./common.html&quot;);
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;或者这样写&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$(function(){  
+    $.ajax({    
+        url: 'common.html',    
+        dataType: 'html',    
+        success: function (res) {      
+            $(&quot;.common&quot;).html(res);    
+        },    
+       error: function(e){      
+           console.log(e);    
+       }  
+   });
+});
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;有时写的html时需用到本地的文件，在chrome中不能正常运行，用开发人员工具看到是这样的一个问题。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/1874069-d796ea252535b197.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;报错&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt; 在chrome中可以用–allow-file-access-from-files 命令来解决这个问题。右键点击chrome的快捷方式选择属性。在目标一栏中添加–allow-file-access-from-files，如图所示，注意与前面的内容要用一空格隔开。然后从这个快捷方式打开浏览器，html便可正常运行。注意，必须通过这个带有–allow-file-access-from-files命令的快捷方式打开的浏览器才行。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/1874069-df2e1c558167817b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;chrome&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">$(&quot;.common&quot;).load(&quot;./common.html&quot;);</summary></entry><entry><title type="html">火狐浏览器获取不到iconfont</title><link href="http://localhost:4000/2020/05/18/%E7%81%AB%E7%8B%90%E6%B5%8F%E8%A7%88%E5%99%A8%E8%8E%B7%E5%8F%96%E4%B8%8D%E5%88%B0iconfont.html" rel="alternate" type="text/html" title="火狐浏览器获取不到iconfont" /><published>2020-05-18T00:00:00+08:00</published><updated>2020-05-18T00:00:00+08:00</updated><id>http://localhost:4000/2020/05/18/%E7%81%AB%E7%8B%90%E6%B5%8F%E8%A7%88%E5%99%A8%E8%8E%B7%E5%8F%96%E4%B8%8D%E5%88%B0iconfont</id><content type="html" xml:base="http://localhost:4000/2020/05/18/%E7%81%AB%E7%8B%90%E6%B5%8F%E8%A7%88%E5%99%A8%E8%8E%B7%E5%8F%96%E4%B8%8D%E5%88%B0iconfont.html">&lt;p&gt;可能的原因是：firefox（28.0）对icon font的目录解析bug导致出现问题。&lt;/p&gt;
+
+&lt;p&gt;我尝试着调整CSS文件的位置以及icon font文件的位置，以期找到问题的真正原因。我做了很多次调整，但是从这些结果中我不能总结出一个满意的规律来。自己也觉得很懊恼。在这里只能给个勉强的解决方法：就是把icon font对应的CSS文件和icon font文件都放在也HTML同级目录或者子目录下，然后正确的引入即可。
+ 我引入CSS文件的代码：&lt;/p&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;moz/font_madtry.css&quot; /&gt;
+
+&lt;p&gt;我的icon font文件引入代码：&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
+@font-face{    
+  font-family:'madtry';    
+  src: url('fonts/madtry.eot'); /* IE 9 */    
+  src: url('fonts/madtry.eot#iefix') format('embedded-opentype'), /* IE6-8 */ 
+        url('fonts/madtry.woff') format('woff'),  /* Chrome firefox */
+        url('fonts/madtry.ttf') format('truetype'), /* Chrome firefox opera  andriod ios4.2 */        
+        url('fonts/madtry.svg#madtry') format('svg'); /* ios4.1 */
+}&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">可能的原因是：firefox（28.0）对icon font的目录解析bug导致出现问题。</summary></entry><entry><title type="html">利用github Pages与jekyll搭建个人博客(二)</title><link href="http://localhost:4000/2020/05/17/%E5%88%A9%E7%94%A8github-pages%E4%B8%8Ejekyll%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2(%E4%BA%8C).html" rel="alternate" type="text/html" title="利用github Pages与jekyll搭建个人博客(二)" /><published>2020-05-17T00:00:00+08:00</published><updated>2020-05-17T00:00:00+08:00</updated><id>http://localhost:4000/2020/05/17/%E5%88%A9%E7%94%A8github-pages%E4%B8%8Ejekyll%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2(%E4%BA%8C)</id><content type="html" xml:base="http://localhost:4000/2020/05/17/%E5%88%A9%E7%94%A8github-pages%E4%B8%8Ejekyll%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2(%E4%BA%8C).html">&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;http://www.jianshu.com/p/d759ff1f1af5#&quot;&gt;利用github pages与jekyll搭建个人博客(一)&lt;/a&gt;：基础环境配置与博客搭建
+&lt;a href=&quot;http://www.jianshu.com/p/7e68faee9512&quot;&gt;利用github pages与jekyll搭建个人博客(二)&lt;/a&gt;：添加分页功能以及安装Grunt
+&lt;a href=&quot;https://github.com/MfWang/MFWang.github.io&quot;&gt;查看github上源码&lt;/a&gt;
+&lt;a href=&quot;https://mfwang.github.io/&quot;&gt;github博客地址&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;21开启分页功能&quot;&gt;2.1开启分页功能&lt;/h2&gt;
+
+&lt;p&gt;在_posts目录下文件比较多的情况下，一页展示完全不合理，这时，就需要用到分页功能。&lt;/p&gt;
+
+&lt;p&gt;jekyll的分页功能很简单，在index.html文件中，将代码改写成&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;保存文件，看运行结果，显示有报错的，原因是没有引入改插件&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/1874069-64e74072ea9d1368.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;index页面使用了分页功能，但是我引用安装该插件&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;首先是安装该插件：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo gem install jekyll-paginate
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;然后打开_config.yml，修改代码&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# Gems
+gems: 
+ - jekyll-feed //这个是原来就有的
+ - jekyll-paginate
+#gems也可以这样写
+#gems: [jekyll-feed, jekyll-paginate]
+paginate: 10  
+paginate_path: &quot;page:num&quot; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;再打开Gemfile文件&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/1874069-2f8f5902a991b43d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;Gemfile&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;将刚才安装的jekyll-paginate进行添加：&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# If you have any plugins, put them here!
+group :jekyll_plugins do
+   gem &quot;jekyll-feed&quot;, &quot;~&amp;gt; 0.6&quot;
+   gem &quot;jekyll-paginate&quot;, &quot;~&amp;gt; 1.1.0&quot;
+end
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;保存文件之后重启服务&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jekyll serve
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;只有分页显示还不够，还得有上一页下一页之类的链接跳转&lt;/p&gt;
+
+&lt;p&gt;在Index.html中添加代码：&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;保存文件，刷新页面将会看到文章分页功能已经实现了，之后要做的就是完善分页样式了。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/1874069-60fabea60aa48318.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;分页功能已经实现&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;22添加grunt&quot;&gt;2.2添加Grunt&lt;/h2&gt;
+
+&lt;p&gt;可参考&lt;a href=&quot;http://www.jianshu.com/p/a339f2dc3823&quot;&gt;Grunt安装与环境配置&lt;/a&gt;
+或者跟我一步步做&lt;/p&gt;
+
+&lt;p&gt;1.全局安装grunt&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm install -g grunt-cli
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;2.进入博客目录，生成package.json&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm init
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;3.目录下安装grunt&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm install grunt --save-dev
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;4.安装需要的插件，这里根据个人需要来安装插件&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm install grunt-contrib-sass --save-dev
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;5.配置Gruntfile.js
+在根目录下创建Gruntfile.js文件&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/**
+ * Created by wangmengfei on 16-12-21.
+ *动态数据标签和ejs模板类似 &amp;lt;%= %&amp;gt;
+ */
+
+module.exports = function(grunt) {
+    grunt.initConfig({
+        //读取package.json文件信息
+        pkg:grunt.file.readJSON('package.json'),
+
+        sass:{
+            dist:{
+                options:{
+                    sourceMap: false,
+                    style: 'expanded'
+                },
+                files:[{
+                    expand:true,
+                    cwd:'_sass',
+                    src:['*.scss','*.sass'],
+                    dest:'css',
+                    ext:'.css'
+                }]
+            }
+        }
+
+        //注解：
+        //cwd: '', 指向的目录是相对的,全称Change Working Directory更改工作目录
+        //src: ['**'], 指向源文件，**是一个通配符，用来匹配Grunt任何文件
+        //dest: 'images', 用来输出结果任务
+        //expand: true expand参数为true来启用动态扩展，涉及到多个文件处理需要开启
+    });
+    // 加载任务插件
+    grunt.loadNpmTasks('grunt-contrib-sass');
+
+
+    // 默认被执行的任务列表。
+    grunt.registerTask('default',['sass']);
+};
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;6.创建_sass文件夹，编写scss代码&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;//test.scss文件
+@import './testb.scss';
+.test{
+  &amp;amp;__red{
+    color:red;
+  }
+  &amp;amp;__green{
+    color:green;
+  }
+}
+
+//testb.scss文件
+.test{
+  &amp;amp;_red{
+    color: red;
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;7.保存文件，编译scss&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;grunt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;8.在目录下可以看到编译之后的css文件，说明可以正常运行。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;// 编译后的test.css文件
+.testb_red {
+  color: red;
+}
+
+.test__red {
+  color: red;
+}
+.test__green {
+  color: green;
+}
+
+/*# sourceMappingURL=test.css.map */
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;现在，就可以使用scss来编写css文件啦。当然，其他的插件也是一样的，需要的移步&lt;a href=&quot;http://www.jianshu.com/p/a339f2dc3823&quot;&gt;Grunt安装与环境配置&lt;/a&gt;，这里有更详细的插件和配置信息。&lt;/p&gt;
+
+&lt;p&gt;9.根目录下现在有目录node_modules，git上传的时候并不需要它，因此，在根目录下创建文件.gitignore，将目录node_modules写在.gitignore文件中&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/1874069-a991b1017195a993.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;.gitignore文件&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;23-grunt-watch自动编译改动的文件&quot;&gt;2.3 grunt watch自动编译改动的文件&lt;/h2&gt;
+
+&lt;p&gt;在完成2.2步之后，_sass目录下的文件改动后，需要&lt;code class=&quot;highlighter-rouge&quot;&gt;grunt&lt;/code&gt;一下进行编译，然后再运行&lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;，改动后的样式才会显示到页面上，但是这样很麻烦，能不能像&lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;一样，改动之后直接编译运行呢？办法是有的，就是使用grunt的watch功能。&lt;/p&gt;
+
+&lt;p&gt;首先要安装这个插件&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm install grunt-contrib-watch --save-dev
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;安装完成之后修改Gruntfile.js文件&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/**
+ * Created by wangmengfei on 16-12-21.
+ *动态数据标签和ejs模板类似 &amp;lt;%= %&amp;gt;
+ */
+
+module.exports = function(grunt) {
+    grunt.initConfig({
+        //读取package.json文件信息
+        pkg:grunt.file.readJSON('package.json'),
+
+        sass:{
+            dist:{
+                options:{
+                    sourceMap: false,
+                    style: 'expanded'
+                },
+                files:[{
+                    expand:true,
+                    cwd:'_sass',
+                    src:['*.scss','*.sass'],
+                    dest:'css',
+                    ext:'.css'
+                }]
+            }
+        },
+        // watch部分为新增内容
+        watch:{
+            start:{
+                files: ['_sass/*.scss'],
+                tasks: [&quot;sass&quot;]
+            }
+        }
+
+        //注解：
+        //cwd: '', 指向的目录是相对的,全称Change Working Directory更改工作目录
+        //src: ['**'], 指向源文件，**是一个通配符，用来匹配Grunt任何文件
+        //dest: 'images', 用来输出结果任务
+        //expand: true expand参数为true来启用动态扩展，涉及到多个文件处理需要开启
+    });
+    // 加载任务插件
+    grunt.loadNpmTasks('grunt-contrib-sass');
+    grunt.loadNpmTasks('grunt-contrib-watch');// 加载任务插件
+
+
+    // 默认被执行的任务列表。
+    grunt.registerTask('default',['sass']);
+};
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;修改完成之后运行&lt;code class=&quot;highlighter-rouge&quot;&gt;grunt watch&lt;/code&gt;，现在，一旦修改了_sass目录下的scss文件，就会自动编译啦，另外再运行&lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;，文件一旦有改动就会重新编译刷新网站内容啦。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;http://www.jianshu.com/p/d759ff1f1af5#&quot;&gt;利用github pages与jekyll搭建个人博客(一)&lt;/a&gt;：基础环境配置与博客搭建
+&lt;a href=&quot;http://www.jianshu.com/p/7e68faee9512&quot;&gt;利用github pages与jekyll搭建个人博客(二)&lt;/a&gt;：添加分页功能以及安装Grunt
+&lt;a href=&quot;https://github.com/MfWang/MFWang.github.io&quot;&gt;查看github上源码&lt;/a&gt;
+&lt;a href=&quot;https://mfwang.github.io/&quot;&gt;github博客地址&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">利用github pages与jekyll搭建个人博客(一)：基础环境配置与博客搭建 利用github pages与jekyll搭建个人博客(二)：添加分页功能以及安装Grunt 查看github上源码 github博客地址</summary></entry><entry><title type="html">利用github Pages与jekyll搭建个人博客(一)</title><link href="http://localhost:4000/2020/05/16/%E5%88%A9%E7%94%A8github-pages%E4%B8%8Ejekyll%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2(%E4%B8%80).html" rel="alternate" type="text/html" title="利用github Pages与jekyll搭建个人博客(一)" /><published>2020-05-16T00:00:00+08:00</published><updated>2020-05-16T00:00:00+08:00</updated><id>http://localhost:4000/2020/05/16/%E5%88%A9%E7%94%A8github-pages%E4%B8%8Ejekyll%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2(%E4%B8%80)</id><content type="html" xml:base="http://localhost:4000/2020/05/16/%E5%88%A9%E7%94%A8github-pages%E4%B8%8Ejekyll%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2(%E4%B8%80).html">&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;http://www.jianshu.com/p/d759ff1f1af5#&quot;&gt;利用github pages与jekyll搭建个人博客(一)&lt;/a&gt;：基础环境配置与博客搭建
+&lt;a href=&quot;http://www.jianshu.com/p/7e68faee9512&quot;&gt;利用github pages与jekyll搭建个人博客(二)&lt;/a&gt;：添加分页功能以及安装Grunt
+&lt;a href=&quot;https://github.com/MfWang/MFWang.github.io&quot;&gt;查看github上源码&lt;/a&gt;
+&lt;a href=&quot;https://mfwang.github.io/&quot;&gt;github博客地址&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;##第一步，配置jekyll环境
+因为本人用的是mac系统，以下操作都基于此。
+1.安装ruby
+2.安装RubyGems&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm install rubygems
+gem -v //2.0.14.1
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;3.安装jekyll&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; gem install jekyll 
+//报错，说
+Fetching: jekyll-3.4.0.gem (100%)
+ERROR:  While executing gem ... (Gem::FilePermissionError)
+    You don't have write permissions for the /Library/Ruby/Gems/2.0.0 directory.
+//所以之后的操作都使用sudo
+sudo gem install jekyll //安装成功
+jekyll -v  //查看版本
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;后来帮同事安装的时候，发现&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo gem install jekyll&lt;/code&gt;有其他的报错，原因是ruby版本过低，所以要先&lt;a href=&quot;http://www.jb51.net/article/70472.htm&quot;&gt;升级ruby&lt;/a&gt;，然后再安装jekyll&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;如果是之前安装好的环境，日后运行时报：
+jekyll 3.4.0 | Error:  uninitialized constant Bundler::Plugin::API::Source
+需要升级gem
+      &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo gem update //升级gem
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;      &lt;/div&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;##第二步，使用jekyll创建博客目录&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jekyll new myblog //创建博客目录
+//报错
+Dependency Error: Yikes! It looks like you don't have bundler or one 
+of its dependencies installed. In order to use Jekyll as currently 
+configured, you'll need to install this gem. The full error message 
+from Ruby is: 'cannot load such file -- bundler' If you run into trouble, 
+you can find helpful resources at https://jekyllrb.com/help/!
+jekyll 3.4.0 | Error:  bundler
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/1874069-daa8123daf98f43d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;创建目录时报错.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;此时需要安装bundler，总之就是缺什么，装什么&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo gem install bundler
+rm -rf myblog  //删除刚才生成的文件夹，重新生成
+jekyll new blog
+cd blog
+jekyll serve //启动服务
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/1874069-475792eca527971b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;启动服务.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;此时，打开浏览器，输入localhost:4000 就可以看到我们的博客了
+ 当然，在启动服务的时候如果遇到以下这个错误&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;D:\GarryBlog&amp;gt;jekyll server
+Configuration file: D:/GarryBlog/_config.yml
+Configuration file: D:/GarryBlog/_config.yml
+            Source: D:/GarryBlog
+       Destination: D:/GarryBlog/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating...
+                    done in 0.252 seconds.
+  Please add the following to your Gemfile to avoid polling for changes:
+    gem 'wdm', '&amp;gt;= 0.1.0' if Gem.win_platform?
+ Auto-regeneration: enabled for 'D:/GarryBlog'
+Configuration file: D:/GarryBlog/_config.yml
+jekyll 3.3.1 | Error:  Permission denied - bind(2) for 127.0.0.1:4000
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;这个错误是告诉我们4000端口被占用，解决方法是：在_config.yml文件的末尾加上port: 4040，改为4040端口即可。这样在浏览器中输入&lt;a href=&quot;http://127.0.0.1:4040&quot;&gt;http://127.0.0.1:4040&lt;/a&gt; 也可以看到我们的博客了。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/1874069-9db17fae30d0ed9a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;Blog测试页.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##第三步，将简书上的文章打包下载，替换_posts目录中的文件
+&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/1874069-91d2fc446cc8ad32.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;简书_设置.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/1874069-29a89a6158a5e3e3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;简书_打包下载文章.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;打包下载的文件：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/1874069-476c1cc13cbb0e78.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;下载列表.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/1874069-e60f51bab57f6382.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;文章目录.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;现在，将文件名更改&lt;code class=&quot;highlighter-rouge&quot;&gt;date-title.md&lt;/code&gt;，如：&lt;code class=&quot;highlighter-rouge&quot;&gt;2016-10-13-图片上下居中.md&lt;/code&gt;，操作结束后刷新页面，可以看到页面上已经更改为自己当前的文章列表了。&lt;/p&gt;
+
+&lt;p&gt;##第四步
+在根目录下创建_layouts目录，并创建子文件：default.html
+&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/1874069-a4753c8689470b20.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;_layout目录下的default文件.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;在根目录下创建index.html文件&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/1874069-8ca8e7d2640e605b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;根目录下的index文件.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;保存文件，刷新页面
+但是蛮奇怪的是我的页面好像没有变动，还是这个样子，不知道是哪一步出了问题&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/1874069-a6655ceeacc84260.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;当前页面显示.png&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;上面的问题已解决：
+在第二步jekyll new myblog之后会自动创建一个index.md的文件，将该文件删除或者内容清空，页面就会根据Index.html显示
+在此，我选择将该文件删除，下面是index.md中的内容&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
+# You don't need to edit this file, it's empty on purpose.
+# Edit theme's home layout instead if you wanna make some changes
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+layout: home
+---
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;##第五步，在自己的github上创建博客项目
+在自己的github上创建目录blog，然后克隆到本地，新切分支：&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone *****
+git checkout -b gh-page
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;再将之前文件夹里的内容全部拷贝到blog目录中，然后提交代码：&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git add .
+git commit -am &quot;个人博客基础搭建&quot;
+git push origin gh-pages:gh-pages //将本地gh-pages分支推送到远端
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;注意，这里我使用的目录名blog与github的用户名不一致，所以需要切分支gh-pages，因为github规定只有gh-pages分支中的页面，才会生成网页文件。
+此时博客地址：https://username.github.io/blog/
+当然，也可以在创建目录时，将目录名与用户名一致，这样就不需要创建gh-pages分支了，直接在master中提交就可以生成网页文件了
+此时博客地址：https://username.github.io/&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;另外：&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;github上的博客可以自己创建，也可以fork别人的博客代码，进行改造，这里初次创建，先自己创建，后期fork别人的代码或者直接下一些简洁的模板，改成自己想要的样子。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;ps:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;http://www.jianshu.com/p/d759ff1f1af5#&quot;&gt;利用github pages与jekyll搭建个人博客(一)&lt;/a&gt;：基础环境配置与博客搭建
+&lt;a href=&quot;http://www.jianshu.com/p/7e68faee9512&quot;&gt;利用github pages与jekyll搭建个人博客(二)&lt;/a&gt;：添加分页功能以及安装Grunt
+&lt;a href=&quot;https://github.com/MfWang/MFWang.github.io&quot;&gt;查看github上源码&lt;/a&gt;
+&lt;a href=&quot;https://mfwang.github.io/&quot;&gt;github博客地址&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">利用github pages与jekyll搭建个人博客(一)：基础环境配置与博客搭建 利用github pages与jekyll搭建个人博客(二)：添加分页功能以及安装Grunt 查看github上源码 github博客地址</summary></entry><entry><title type="html">移动端虚拟键盘和fixed的坑</title><link href="http://localhost:4000/2020/05/15/%E7%A7%BB%E5%8A%A8%E7%AB%AF%E8%99%9A%E6%8B%9F%E9%94%AE%E7%9B%98%E5%92%8Cfixed%E7%9A%84%E5%9D%91.html" rel="alternate" type="text/html" title="移动端虚拟键盘和fixed的坑" /><published>2020-05-15T00:00:00+08:00</published><updated>2020-05-15T00:00:00+08:00</updated><id>http://localhost:4000/2020/05/15/%E7%A7%BB%E5%8A%A8%E7%AB%AF%E8%99%9A%E6%8B%9F%E9%94%AE%E7%9B%98%E5%92%8Cfixed%E7%9A%84%E5%9D%91</id><content type="html" xml:base="http://localhost:4000/2020/05/15/%E7%A7%BB%E5%8A%A8%E7%AB%AF%E8%99%9A%E6%8B%9F%E9%94%AE%E7%9B%98%E5%92%8Cfixed%E7%9A%84%E5%9D%91.html">&lt;p&gt;这两天接手一个新需求，做一个直播间的页面，用于微信平台。&lt;/p&gt;
+&lt;h1 id=&quot;需求&quot;&gt;需求&lt;/h1&gt;
+&lt;p&gt;页面的设计稿要求 头部和底部置顶，底部有输入框，中间部分为显示内容的区域，可滚动&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;`  &amp;lt;section class=&quot;header award-frame&quot;&amp;gt;&amp;lt;/section&amp;gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;section class=&quot;main&quot;&gt;&lt;/section&gt;
+&lt;section class=&quot;footer input-area&quot;&gt;&lt;/section&gt;
+&lt;p&gt;`&lt;/p&gt;
+
+&lt;h1 id=&quot;问题&quot;&gt;问题&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;虚拟键盘弹起时，fixed样式失效&lt;/li&gt;
+    &lt;li&gt;无法监听虚拟键盘弹起、关闭状态&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;解决方案&quot;&gt;解决方案&lt;/h1&gt;
+&lt;h3 id=&quot;1用absolute和relative代替fixed&quot;&gt;1.用absolute和relative代替fixed&lt;/h3&gt;
+&lt;p&gt;1.在键盘弹起的时候，将头部定位成relative，底部定位为absolute，但是此时底部的bottom:0是相对屏幕高度来说的，也就是说当屏幕滑动时，底部也会滚动&lt;/p&gt;
+&lt;h3 id=&quot;2使用iscrolljs&quot;&gt;2.使用iscroll.js&lt;/h3&gt;
+&lt;p&gt;JS代码
+&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/1874069-dc626e6529fffd81.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;iscroll-js.png&quot; /&gt;
+页面代码结构
+&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/1874069-862e042c5317a683.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;iscroll.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;3微信设置&quot;&gt;3.微信设置&lt;/h3&gt;
+&lt;p&gt;这是向同事请教的一个办法，微信可以设置虚拟键盘弹起的时候，不改变页面的样式，但是此种方案只适用于微信， &lt;a href=&quot;http://jingyan.baidu.com/article/e5c39bf5a044e839d7603332.html&quot; title=&quot;百度相关链接&quot;&gt;百度相关链接&lt;/a&gt; 
+将我们的域名添加进去，在微信端打开的时候就不会再重新布局了，不知道这个解决办法是否可行，因为第二天打开的时候，发现并没有出现所预期的效果，还是被重新布局了&lt;/p&gt;
+
+&lt;p&gt;###4.监听虚拟键盘
+虚拟键盘的弹起和关闭状态，可以用resize()来进行监听，当然，屏幕旋转的时候也会触发这个方法，此时就需要自己做判断控制。&lt;/p&gt;</content><author><name></name></author><summary type="html">这两天接手一个新需求，做一个直播间的页面，用于微信平台。 需求 页面的设计稿要求 头部和底部置顶，底部有输入框，中间部分为显示内容的区域，可滚动 ` &amp;lt;section class=&quot;header award-frame&quot;&amp;gt;&amp;lt;/section&amp;gt; `</summary></entry><entry><title type="html">Http协议详解（真的很经典）</title><link href="http://localhost:4000/2020/05/15/HTTP%E5%8D%8F%E8%AE%AE%E8%AF%A6%E8%A7%A3-%E7%9C%9F%E7%9A%84%E5%BE%88%E7%BB%8F%E5%85%B8.html" rel="alternate" type="text/html" title="Http协议详解（真的很经典）" /><published>2020-05-15T00:00:00+08:00</published><updated>2020-05-15T00:00:00+08:00</updated><id>http://localhost:4000/2020/05/15/HTTP%E5%8D%8F%E8%AE%AE%E8%AF%A6%E8%A7%A3(%E7%9C%9F%E7%9A%84%E5%BE%88%E7%BB%8F%E5%85%B8)</id><content type="html" xml:base="http://localhost:4000/2020/05/15/HTTP%E5%8D%8F%E8%AE%AE%E8%AF%A6%E8%A7%A3-%E7%9C%9F%E7%9A%84%E5%BE%88%E7%BB%8F%E5%85%B8.html">&lt;p&gt;&lt;strong&gt;转自：&lt;a href=&quot;http://blog.csdn.net/gueter/archive/2007/03/08/1524447.aspx&quot;&gt;http://blog.csdn.net/gueter/archive/2007/03/08/1524447.aspx&lt;/a&gt;&lt;/strong&gt;
+&lt;strong&gt;Author :Jeffrey&lt;/strong&gt;
+&lt;strong&gt;引言&lt;/strong&gt;
+HTTP是一个属于应用层的面向对象的协议，由于其简捷、快速的方式，适用于分布式超媒体信息系统。它于1990年提出，经过几年的使用与发展，得到不断地完善和扩展。目前在WWW中使用的是HTTP/1.0的第六版，HTTP/1.1的规范化工作正在进行之中，而且HTTP-NG(Next Generation of HTTP)的建议已经提出。&lt;/p&gt;
+
+&lt;p&gt;HTTP协议的主要特点可概括如下：
+1.支持客户/服务器模式。
+2.简单快速：客户向服务器请求服务时，只需传送请求方法和路径。请求方法常用的有GET、HEAD、POST。每种方法规定了客户与服务器联系的类型不同。由于HTTP协议简单，使得HTTP服务器的程序规模小，因而通信速度很快。
+3.灵活：HTTP允许传输任意类型的数据对象。正在传输的类型由Content-Type加以标记。
+4.无连接：无连接的含义是限制每次连接只处理一个请求。服务器处理完客户的请求，并收到客户的应答后，即断开连接。采用这种方式可以节省传输时间。
+5.无状态：HTTP协议是无状态协议。无状态是指协议对于事务处理没有记忆能力。缺少状态意味着如果后续处理需要前面的信息，则它必须重传，这样可能导致每次连接传送的数据量增大。另一方面，在服务器不需要先前信息时它的应答就较快。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;一、HTTP协议详解之URL篇&lt;/strong&gt;
+    http（超文本传输协议）是一个基于请求与响应模式的、无状态的、应用层的协议，常基于TCP的连接方式，HTTP1.1版本中给出一种持续连接的机制，绝大多数的Web开发，都是构建在HTTP协议之上的Web应用。&lt;/p&gt;
+
+&lt;p&gt;HTTP URL (URL是一种特殊类型的URI，包含了用于查找某个资源的足够的信息)的格式如下：
+[http://host[”:”port]&lt;a href=&quot;http://host[%22%22port][abs_path/&quot;&gt;abs_path&lt;/a&gt;]
+http表示要通过HTTP协议来定位网络资源；
+host表示合法的Internet主机域名或者IP地址；
+port指定一个端口号，为空则使用缺省端口80；
+abs_path指定请求资源的URI；
+如果URL中没有给出abs_path，那么当它作为请求URI时，必须以“/”的形式给出，通常这个工作浏览器自动帮我们完成。
+eg:
+1、输入：&lt;a href=&quot;http://www.guet.edu.cn/&quot;&gt;www.guet.edu.cn&lt;/a&gt;浏览器自动转换成：&lt;a href=&quot;http://www.guet.edu.cn/&quot;&gt;http://www.guet.edu.cn/&lt;/a&gt;
+2、http:192.168.0.116:8080/index.jsp 
+&lt;strong&gt;二、HTTP协议详解之请求篇&lt;/strong&gt;
+    http请求由三部分组成，分别是：请求行、消息报头、请求正文
+1、请求行以一个方法符号开头，以空格分开，后面跟着请求的URI和协议的版本，格式如下：Method Request-URI HTTP-Version CRLF  &lt;/p&gt;
+
+&lt;p&gt;其中 Method表示请求方法；Request-URI是一个统一资源标识符；HTTP-Version表示请求的HTTP协议版本；CRLF表示回车和换行（除了作为结尾的CRLF外，不允许出现单独的CR或LF字符）。&lt;/p&gt;
+
+&lt;p&gt;请求方法（所有方法全为大写）有多种，各个方法的解释如下：
+GET     请求获取Request-URI所标识的资源
+POST    在Request-URI所标识的资源后附加新的数据
+HEAD    请求获取由Request-URI所标识的资源的响应消息报头
+PUT     请求服务器存储一个资源，并用Request-URI作为其标识
+DELETE  请求服务器删除Request-URI所标识的资源
+TRACE   请求服务器回送收到的请求信息，主要用于测试或诊断
+CONNECT 保留将来使用
+OPTIONS 请求查询服务器的性能，或者查询与资源相关的选项和需求应用举例：
+GET方法：在浏览器的地址栏中输入网址的方式访问网页时，浏览器采用GET方法向服务器获取资源，eg:GET /form.html HTTP/1.1 (CRLF)
+POST方法要求被请求服务器接受附在请求后面的数据，常用于提交表单。&lt;/p&gt;
+
+&lt;p&gt;eg：
+POST /reg.jsp HTTP/ (CRLF)
+Accept:image/gif,image/x-xbit,… (CRLF)
+…
+HOST:www.guet.edu.cn (CRLF)
+Content-Length:22 (CRLF)
+Connection:Keep-Alive (CRLF)
+Cache-Control:no-cache (CRLF)
+(CRLF)         //该CRLF表示消息报头已经结束，在此之前为消息报头
+user=jeffrey&amp;amp;pwd=1234  //此行以下为提交的数据&lt;/p&gt;
+
+&lt;p&gt;HEAD方法与GET方法几乎是一样的，对于HEAD请求的回应部分来说，它的HTTP头部中包含的信息与通过GET请求所得到的信息是相同的。利用这个方法，不必传输整个资源内容，就可以得到Request-URI所标识的资源的信息。该方法常用于测试超链接的有效性，是否可以访问，以及最近是否更新。
+2、请求报头后述
+3、请求正文(略) 
+ 
+&lt;strong&gt;三、HTTP协议详解之响应篇&lt;/strong&gt;
+    在接收和解释请求消息后，服务器返回一个HTTP响应消息。&lt;/p&gt;
+
+&lt;p&gt;HTTP响应也是由三个部分组成，分别是：状态行、消息报头、响应正文&lt;/p&gt;
+
+&lt;p&gt;1、状态行格式如下：
+HTTP-Version Status-Code Reason-Phrase CRLF
+其中，
+HTTP-Version表示服务器HTTP协议的版本；
+Status-Code表示服务器发回的响应状态代码；
+Reason-Phrase表示状态代码的文本描述。&lt;/p&gt;
+
+&lt;p&gt;状态代码有三位数字组成，第一个数字定义了响应的类别，且有五种可能取值：
+1xx：指示信息–表示请求已接收，继续处理
+2xx：成功–表示请求已被成功接收、理解、接受
+3xx：重定向–要完成请求必须进行更进一步的操作
+4xx：客户端错误–请求有语法错误或请求无法实现
+5xx：服务器端错误–服务器未能实现合法的请求
+常见状态代码、状态描述、说明：
+200 OK      //客户端请求成功
+400 Bad Request  //客户端请求有语法错误，不能被服务器所理解
+401 Unauthorized //请求未经授权，这个状态代码必须和WWW-Authenticate报头域一起使用 
+403 Forbidden  //服务器收到请求，但是拒绝提供服务
+404 Not Found  //请求资源不存在，
+eg：输入了错误的URL
+500 Internal Server Error //服务器发生不可预期的错误
+503 Server Unavailable  //服务器当前不能处理客户端的请求，一段时间后可能恢复正常
+eg：HTTP/1.1 200 OK （CRLF）
+2、响应报头后述
+3、响应正文就是服务器返回的资源的内容 
+ 
+&lt;strong&gt;四、HTTP协议详解之消息报头篇&lt;/strong&gt;
+    HTTP消息由客户端到服务器的请求和服务器到客户端的响应组成。请求消息和响应消息都是由开始行（对于请求消息，开始行就是请求行，对于响应消息，开始行就是状态行），消息报头（可选），空行（只有CRLF的行），消息正文（可选）组成。&lt;/p&gt;
+
+&lt;p&gt;HTTP消息报头包括普通报头、请求报头、响应报头、实体报头。每一个报头域都是由名字+“：”+空格+值 组成，消息报头域的名字是大小写无关的。&lt;/p&gt;
+
+&lt;p&gt;1、普通报头
+在普通报头中，有少数报头域用于所有的请求和响应消息，但并不用于被传输的实体，只用于传输的消息。
+eg：
+Cache-Control   用于指定缓存指令，缓存指令是单向的（响应中出现的缓存指令在请求中未必会出现），且是独立的（一个消息的缓存指令不会影响另一个消息处理的缓存机制），HTTP1.0使用的类似的报头域为Pragma。&lt;/p&gt;
+
+&lt;p&gt;请求时的缓存指令包括：no-cache（用于指示请求或响应消息不能缓存）、no-store、max-age、max-stale、min-fresh、only-if-cached;&lt;/p&gt;
+
+&lt;p&gt;响应时的缓存指令包括：public、private、no-cache、no-store、no-transform、must-revalidate、proxy-revalidate、max-age、s-maxage.&lt;/p&gt;
+
+&lt;p&gt;eg：为了指示IE浏览器（客户端）不要缓存页面，服务器端的JSP程序可以编写如下：response.sehHeader(“Cache-Control”,”no-cache”);&lt;/p&gt;
+
+&lt;p&gt;//response.setHeader(“Pragma”,”no-cache”);作用相当于上述代码，通常两者//合用&lt;/p&gt;
+
+&lt;p&gt;这句代码将在发送的响应消息中设置普通报头域：Cache-Control:no-cache&lt;/p&gt;
+
+&lt;p&gt;Date普通报头域表示消息产生的日期和时间&lt;/p&gt;
+
+&lt;p&gt;Connection普通报头域允许发送指定连接的选项。例如指定连接是连续，或者指定“close”选项，通知服务器，在响应完成后，关闭连接&lt;/p&gt;
+
+&lt;p&gt;2、请求报头&lt;/p&gt;
+
+&lt;p&gt;请求报头允许客户端向服务器端传递请求的附加信息以及客户端自身的信息。&lt;/p&gt;
+
+&lt;p&gt;常用的请求报头
+Accept
+Accept请求报头域用于指定客户端接受哪些类型的信息。
+eg：
+Accept：image/gif，表明客户端希望接受GIF图象格式的资源；
+Accept：text/html，表明客户端希望接受html文本。
+Accept-Charset
+Accept-Charset请求报头域用于指定客户端接受的字符集。
+eg：Accept-Charset:iso-8859-1,gb2312.如果在请求消息中没有设置这个域，缺省是任何字符集都可以接受。
+Accept-Encoding
+Accept-Encoding请求报头域类似于Accept，但是它是用于指定可接受的内容编码。
+eg：Accept-Encoding:gzip.deflate.如果请求消息中没有设置这个域服务器假定客户端对各种内容编码都可以接受。
+Accept-Language
+Accept-Language请求报头域类似于Accept，但是它是用于指定一种自然语言。
+eg：Accept-Language:zh-cn.如果请求消息中没有设置这个报头域，服务器假定客户端对各种语言都可以接受。
+Authorization
+Authorization请求报头域主要用于证明客户端有权查看某个资源。当浏览器访问一个页面时，如果收到服务器的响应代码为401（未授权），可以发送一个包含Authorization请求报头域的请求，要求服务器对其进行验证。
+Host（发送请求时，该报头域是必需的）
+Host请求报头域主要用于指定被请求资源的Internet主机和端口号，它通常从HTTP URL中提取出来的，
+eg：我们在浏览器中输入：&lt;a href=&quot;http://www.guet.edu.cn/index.html&quot;&gt;http://www.guet.edu.cn/index.html&lt;/a&gt;
+浏览器发送的请求消息中，就会包含Host请求报头域，如下：
+Host：&lt;a href=&quot;http://www.guet.edu.cn/&quot;&gt;www.guet.edu.cn&lt;/a&gt;
+此处使用缺省端口号80，若指定了端口号，则变成：Host：&lt;a href=&quot;http://www.guet.edu.cn/&quot;&gt;www.guet.edu.cn&lt;/a&gt;:指定端口号
+User-Agent
+我们上网登陆论坛的时候，往往会看到一些欢迎信息，其中列出了你的操作系统的名称和版本，你所使用的浏览器的名称和版本，这往往让很多人感到很神奇，实际上，服务器应用程序就是从User-Agent这个请求报头域中获取到这些信息。User-Agent请求报头域允许客户端将它的操作系统、浏览器和其它属性告诉服务器。不过，这个报头域不是必需的，如果我们自己编写一个浏览器，不使用User-Agent请求报头域，那么服务器端就无法得知我们的信息了。
+请求报头举例：
+GET /form.html HTTP/1.1 (CRLF)
+Accept:image/gif,image/x-xbitmap,image/jpeg,application/x-shockwave-flash,application/vnd.ms-excel,application/vnd.ms-powerpoint,application/msword,&lt;em&gt;/&lt;/em&gt; (CRLF)
+Accept-Language:zh-cn (CRLF)
+Accept-Encoding:gzip,deflate (CRLF)
+If-Modified-Since:Wed,05 Jan 2007 11:21:25 GMT (CRLF)
+If-None-Match:W/”80b1a4c018f3c41:8317” (CRLF)
+User-Agent:Mozilla/4.0(compatible;MSIE6.0;Windows NT 5.0) (CRLF)
+Host:www.guet.edu.cn (CRLF)
+Connection:Keep-Alive (CRLF)
+(CRLF)
+3、响应报头
+响应报头允许服务器传递不能放在状态行中的附加响应信息，以及关于服务器的信息和对Request-URI所标识的资源进行下一步访问的信息。
+常用的响应报头
+Location
+Location响应报头域用于重定向接受者到一个新的位置。Location响应报头域常用在更换域名的时候。
+Server
+Server响应报头域包含了服务器用来处理请求的软件信息。与User-Agent请求报头域是相对应的。下面是Server响应报头域的一个例子：
+Server：Apache-Coyote/1.1
+WWW-Authenticate
+WWW-Authenticate响应报头域必须被包含在401（未授权的）响应消息中，客户端收到401响应消息时候，并发送Authorization报头域请求服务器对其进行验证时，服务端响应报头就包含该报头域。
+eg：WWW-Authenticate:Basic realm=”Basic Auth Test!”  //可以看出服务器对请求资源采用的是基本验证机制。&lt;/p&gt;
+
+&lt;p&gt;4、实体报头
+请求和响应消息都可以传送一个实体。一个实体由实体报头域和实体正文组成，但并不是说实体报头域和实体正文要在一起发送，可以只发送实体报头域。实体报头定义了关于实体正文（eg：有无实体正文）和请求所标识的资源的元信息。&lt;/p&gt;
+
+&lt;p&gt;常用的实体报头
+Content-Encoding
+Content-Encoding实体报头域被用作媒体类型的修饰符，它的值指示了已经被应用到实体正文的附加内容的编码，因而要获得Content-Type报头域中所引用的媒体类型，必须采用相应的解码机制。Content-Encoding这样用于记录文档的压缩方法，
+eg：
+Content-Encoding：gzip
+Content-Language
+Content-Language实体报头域描述了资源所用的自然语言。没有设置该域则认为实体内容将提供给所有的语言阅读者。
+eg：
+Content-Language:da
+Content-Length
+Content-Length实体报头域用于指明实体正文的长度，以字节方式存储的十进制数字来表示。
+Content-Type
+Content-Type实体报头域用语指明发送给接收者的实体正文的媒体类型。
+eg：
+Content-Type:text/html;charset=ISO-8859-1
+Content-Type:text/html;charset=GB2312
+Last-Modified
+Last-Modified实体报头域用于指示资源的最后修改日期和时间。
+Expires
+Expires实体报头域给出响应过期的日期和时间。为了让代理服务器或浏览器在一段时间以后更新缓存中(再次访问曾访问过的页面时，直接从缓存中加载，缩短响应时间和降低服务器负载)的页面，我们可以使用Expires实体报头域指定页面过期的时间。
+eg：Expires：Thu，15 Sep 2006 16:23:12 GMT
+HTTP1.1的客户端和缓存必须将其他非法的日期格式（包括0）看作已经过期。
+eg：为了让浏览器不要缓存页面，我们也可以利用Expires实体报头域，设置为0，jsp中程序如下：response.setDateHeader(“Expires”,”0”);
+ 
+&lt;strong&gt;五、利用telnet观察http协议的通讯过程&lt;/strong&gt;
+    实验目的及原理：    
+利用MS的telnet工具，通过手动输入http请求信息的方式，向服务器发出请求，服务器接收、解释和接受请求后，会返回一个响应，该响应会在telnet窗口上显示出来，从而从感性上加深对http协议的通讯过程的认识。
+    实验步骤：
+1、打开telnet
+1.1 打开telnet
+运行–&amp;gt;cmd–&amp;gt;telnet
+1.2 打开telnet回显功能
+set localecho
+2、连接服务器并发送请求
+2.1 open &lt;a href=&quot;http://www.guet.edu.cn/&quot;&gt;www.guet.edu.cn&lt;/a&gt; 80  //注意端口号不能省略
+HEAD /index.asp HTTP/1.0    
+Host:www.guet.edu.cn      
+ /&lt;em&gt;我们可以变换请求方法,请求桂林电子主页内容,输入消息如下&lt;/em&gt;/    
+open &lt;a href=&quot;http://www.guet.edu.cn/&quot;&gt;www.guet.edu.cn&lt;/a&gt; 80       
+GET /index.asp HTTP/1.0  //请求资源的内容   
+ Host:www.guet.edu.cn  
+2.2&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;open &lt;a href=&quot;http://www.sina.com.cn/&quot;&gt;www.sina.com.cn&lt;/a&gt; 80  //在命令提示符号下直接输入telnet &lt;a href=&quot;http://www.sina.com.cn/&quot;&gt;www.sina.com.cn&lt;/a&gt; 80   &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;HEAD /index.asp HTTP/1.0   &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Host:www.sina.com.cn &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;3 实验结果：
+3.1 请求信息2.1得到的响应是:&lt;/p&gt;
+
+&lt;p&gt;HTTP/1.1 200 OK                                              //请求成功
+Server: Microsoft-IIS/5.0                                    //web服务器
+Date: Thu,08 Mar 200707:17:51 GMT
+Connection: Keep-Alive                                 
+Content-Length: 23330
+Content-Type: text/html
+Expries: Thu,08 Mar 2007 07:16:51 GMT
+Set-Cookie: ASPSESSIONIDQAQBQQQB=BEJCDGKADEDJKLKKAJEOIMMH; path=/
+Cache-control: private
+//资源内容省略
+3.2 请求信息2.2得到的响应是:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;HTTP/1.0 404 Not Found       //请求失败
+Date: Thu, 08 Mar 2007 07:50:50 GMT
+Server: Apache/2.0.54 &lt;Unix&gt;
+Last-Modified: Thu, 30 Nov 2006 11:35:41 GMT
+ETag: &quot;6277a-415-e7c76980&quot;
+Accept-Ranges: bytes
+X-Powered-By: mod_xlayout_jh/0.0.1vhs.markII.remix
+Vary: Accept-Encoding&amp;gt;Content-Type: text/html
+X-Cache: MISS from zjm152-78.sina.com.cn
+Via: 1.0 zjm152-78.sina.com.cn:80&amp;lt;squid/2.6.STABLES-20061207&amp;gt;
+X-Cache: MISS from th-143.sina.com.cn
+Connection: close&lt;/Unix&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;失去了跟主机的连接
+按任意键继续…
+4 .注意事项：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;出现输入错误，则请求不会成功。         &lt;/li&gt;
+  &lt;li&gt;报头域不分大小写。         &lt;/li&gt;
+  &lt;li&gt;更深一步了解HTTP协议，可以查看RFC2616，在&lt;a href=&quot;http://www.letf.org/rfc&quot;&gt;http://www.letf.org/rfc&lt;/a&gt;上找到该文件。         &lt;/li&gt;
+  &lt;li&gt;开发后台程序必须掌握http协议
+&lt;strong&gt;六、&lt;/strong&gt;&lt;a href=&quot;http://blog.csdn.net/gueter/archive/2007/04/23/1575543.aspx&quot;&gt;&lt;strong&gt;HTTP协议相关技术补充&lt;/strong&gt;&lt;/a&gt;
+    1、基础：   &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;高层协议有：文件传输协议FTP、电子邮件传输协议SMTP、域名系统服务DNS、网络新闻传输协议NNTP和HTTP协议等中介由三种：代理(Proxy)、网关(Gateway)和通道(Tunnel)，一个代理根据URI的绝对格式来接受请求，重写全部或部分消息，通过 URI的标识把已格式化过的请求发送到服务器。网关是一个接收代理，作为一些其它服务器的上层，并且如果必须的话，可以把请求翻译给下层的服务器协议。一 个通道作为不改变消息的两个连接之间的中继点。当通讯需要通过一个中介(例如：防火墙等)或者是中介不能识别消息的内容时，通道经常被使用。    &lt;/p&gt;
+
+&lt;p&gt;代理(Proxy)：一个中间程序，它可以充当一个服务器，也可以充当一个客户机，为其它客户机建立请求。请求是通过可能的翻译在内部或经过传递到其它的 服务器中。一个代理在发送请求信息之前，必须解释并且如果可能重写它。代理经常作为通过防火墙的客户机端的门户，代理还可以作为一个帮助应用来通过协议处 理没有被用户代理完成的请求。网关(Gateway)：一个作为其它服务器中间媒介的服务器。与代理不同的是，网关接受请求就好象对被请求的资源来说它就是源服务器；发出请求的客户机并没有意识到它在同网关打交道。网关经常作为通过防火墙的服务器端的门户，网关还可以作为一个协议翻译器以便存取那些存储在非HTTP系统中的资源。   &lt;/p&gt;
+
+&lt;p&gt;通道(Tunnel)：是作为两个连接中继的中介程序。一旦激活，通道便被认为不属于HTTP通讯，尽管通道可能是被一个HTTP请求初始化的。当被中继 的连接两端关闭时，通道便消失。当一个门户(Portal)必须存在或中介(Intermediary)不能解释中继的通讯时通道被经常使用。&lt;/p&gt;
+
+&lt;p&gt;2、协议分析的优势—HTTP分析器检测网络攻击&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;以模块化的方式对高层协议进行分析处理，将是未来入侵检测的方向。&lt;/li&gt;
+  &lt;li&gt;HTTP及其代理的常用端口80、3128和8080在network部分用port标签进行了规定&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;3、HTTP协议Content Lenth限制漏洞导致拒绝服务攻击
+使用POST方法时，可以设置ContentLenth来定义需要传送的数据长度，例如ContentLenth:999999999，在传送完成前，内 存不会释放，攻击者可以利用这个缺陷，连续向WEB服务器发送垃圾数据直至WEB服务器内存耗尽。这种攻击方法基本不会留下痕迹。
+http://www.cnpaf.net/Class/HTTP/0532918532667330.html&lt;/p&gt;
+
+&lt;p&gt;4、利用HTTP协议的特性进行拒绝服务攻击的一些构思
+服务器端忙于处理攻击者伪造的TCP连接请求而无暇理睬客户的正常请求（毕竟客户端的正常请求比率非常之小），此时从正常客户的角度看来，服务器失去响应，这种情况我们称作：服务器端受到了SYNFlood攻击（SYN洪水攻击）。&lt;/p&gt;
+
+&lt;p&gt;而Smurf、TearDrop等是利用ICMP报文来Flood和IP碎片攻击的。本文用“正常连接”的方法来产生拒绝服务攻击。&lt;/p&gt;
+
+&lt;p&gt;19端口在早期已经有人用来做Chargen攻击了，即Chargen_Denial_of_Service，但是！他们用的方法是在两台Chargen 服务器之间产生UDP连接，让服务器处理过多信息而DOWN掉，那么，干掉一台WEB服务器的条件就必须有2个：1.有Chargen服务2.有HTTP 服务方法：攻击者伪造源IP给N台Chargen发送连接请求（Connect），Chargen接收到连接后就会返回每秒72字节的字符流（实际上根据网络实际情况，这个速度更快）给服务器。&lt;/p&gt;
+
+&lt;p&gt;5、Http指纹识别技术   
+Http指纹识别的原理大致上也是相同的：记录不同服务器对Http协议执行中的微小差别进行识别.Http指纹识别比TCP/IP堆栈指纹识别复杂许 多,理由是定制Http服务器的配置文件、增加插件或组件使得更改Http的响应信息变的很容易,这样使得识别变的困难；然而定制TCP/IP堆栈的行为 需要对核心层进行修改,所以就容易识别.     &lt;/p&gt;
+
+&lt;p&gt;要让服务器返回不同的Banner信息的设置是很简单的,象Apache这样的开放源代码的Http服务器,用户可以在源代码里修改Banner信息,然 后重起Http服务就生效了；对于没有公开源代码的Http服务器比如微软的IIS或者是Netscape,可以在存放Banner信息的Dll文件中修 改,相关的文章有讨论的,这里不再赘述,当然这样的修改的效果还是不错的.另外一种模糊Banner信息的方法是使用插件。
+常用测试请求：
+1：HEAD/Http/1.0发送基本的Http请求
+2：DELETE/Http/1.0发送那些不被允许的请求,比如Delete请求
+3：GET/Http/3.0发送一个非法版本的Http协议请求
+4：GET/JUNK/1.0发送一个不正确规格的
+Http协议请求Http指纹识别工具Httprint,它通过运用统计学原理,组合模糊的逻辑学技术,能很有效的确定Http服务器的类型.它可以被用来收集和分析不同Http服务器产生的签名。&lt;/p&gt;
+
+&lt;p&gt;6、其他：为了提高用户使用浏览器时的性能，现代浏览器还支持并发的访问方式，浏览一个网页时同时建立多个连接，以迅速获得一个网页上的多个图标，这样能更快速完成整个网页的传输。&lt;/p&gt;
+
+&lt;p&gt;HTTP1.1中提供了这种持续连接的方式，而下一代HTTP协议：HTTP-NG更增加了有关会话控制、丰富的内容协商等方式的支持，来提供更高效率的连接。&lt;/p&gt;</content><author><name></name></author><summary type="html">转自：http://blog.csdn.net/gueter/archive/2007/03/08/1524447.aspx Author :Jeffrey 引言 HTTP是一个属于应用层的面向对象的协议，由于其简捷、快速的方式，适用于分布式超媒体信息系统。它于1990年提出，经过几年的使用与发展，得到不断地完善和扩展。目前在WWW中使用的是HTTP/1.0的第六版，HTTP/1.1的规范化工作正在进行之中，而且HTTP-NG(Next Generation of HTTP)的建议已经提出。</summary></entry><entry><title type="html">Seo</title><link href="http://localhost:4000/2020/05/15/SEO.html" rel="alternate" type="text/html" title="Seo" /><published>2020-05-15T00:00:00+08:00</published><updated>2020-05-15T00:00:00+08:00</updated><id>http://localhost:4000/2020/05/15/SEO</id><content type="html" xml:base="http://localhost:4000/2020/05/15/SEO.html">&lt;p&gt;&lt;strong&gt;网站SEO检查&lt;/strong&gt;
+1.输入网址
+     如果网站10秒内打不开，很慢或者根本打不开，会被百度降排名
+2.网站的robots文件  url/robots.txt
+     如果有的话，可以打开并且看到里面写的规则，这是蜘蛛来到网站后第一个访问的文件，蜘蛛会根据这个文件，知道哪些该被抓取，哪些不该被抓取。
+     蜘蛛一定会访问这个文件，如果没有，蜘蛛会记录robots的404错误，那整个网站对蜘蛛的印象就不好了，毕竟是蜘蛛读取的第一步。
+3.网站应该有一个被蜘蛛抓取的网站地图  ulr/sitemap.xml&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Sitemap&lt;/strong&gt;
+sitemap.xml
+给蜘蛛浏览或抓取的网站地图
+sitemap.html
+给网站访问者浏览的网站地图&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://app.yinxiang.com/shard/s64/res/f02072af-39ed-4e75-914e-f1a42e368193.png&quot; alt=&quot;&quot; /&gt;
+changefreq
+Always     #网站时时更新
+Hourly     #网站每小时更新一次
+Daily        #网站每天更新一次
+Weekly    #网站每周更新一次
+Mothly    #网站每月更新一次
+Yearly     #网站每年更新一次
+Nevwe    #网站从来都没有更新
+priority 优先级
+一般首页的优先级的定为最高&lt;/p&gt;</content><author><name></name></author><summary type="html">网站SEO检查 1.输入网址      如果网站10秒内打不开，很慢或者根本打不开，会被百度降排名 2.网站的robots文件  url/robots.txt      如果有的话，可以打开并且看到里面写的规则，这是蜘蛛来到网站后第一个访问的文件，蜘蛛会根据这个文件，知道哪些该被抓取，哪些不该被抓取。      蜘蛛一定会访问这个文件，如果没有，蜘蛛会记录robots的404错误，那整个网站对蜘蛛的印象就不好了，毕竟是蜘蛛读取的第一步。 3.网站应该有一个被蜘蛛抓取的网站地图  ulr/sitemap.xml</summary></entry><entry><title type="html">Webpack + Vue</title><link href="http://localhost:4000/2020/05/15/Webpack-+-Vue.html" rel="alternate" type="text/html" title="Webpack + Vue" /><published>2020-05-15T00:00:00+08:00</published><updated>2020-05-15T00:00:00+08:00</updated><id>http://localhost:4000/2020/05/15/Webpack-+-Vue</id><content type="html" xml:base="http://localhost:4000/2020/05/15/Webpack-+-Vue.html">&lt;h1 id=&quot;1创建项目-webpack-vue&quot;&gt;1.创建项目 webpack-vue&lt;/h1&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;|- build
+  |-- index.html
+  |-- bundle.js(该文件是webpack打包后生成的)
+|- app
+  |-- components
+      |--- Dialog.jsx
+  |-- main.js
+|- package.json(第二步生成)
+|- webpack.config.js(第四步生成)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h1 id=&quot;2创建packagejson&quot;&gt;2.创建package.json&lt;/h1&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm init
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h1 id=&quot;3安装webpack&quot;&gt;3.安装webpack&lt;/h1&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;//全局安装webpack，优点是打包时可以直接输webpack命令
+npm install -g webpack
+//在本项目中安装webpack，--save-dev的意思是将依赖写入项目的package.json文件
+npm install --save-dev webpack
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;4创建webpackconfigjs配置文件&quot;&gt;4.创建webpack.config.js配置文件&lt;/h1&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;module.exports = { 
+  entry: __dirname + &quot;/app/main.js&quot;,//唯一入口文件，就像Java中的main方法 
+  output: {//输出目录 
+      path: __dirname + &quot;/build&quot;,//打包后的js文件存放的地方 
+      filename: &quot;bundle.js&quot;//打包后的js文件名 
+  }
+};
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;运行&lt;code class=&quot;highlighter-rouge&quot;&gt;webpack&lt;/code&gt;，webpack非全局安装需输入&lt;code class=&quot;highlighter-rouge&quot;&gt;node_modules/.bin/webpack&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/1874069-06f40d3be8344671.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; alt=&quot;webpack执行成功&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;看到以上提示说明打包成功了，可以看到build目录下的bundle.js里多了很多自动生成的代码，但预览index.html却什么都没有看到，这是因为还没有往页面中写入内容。&lt;/p&gt;
+&lt;h1 id=&quot;5更方便地执行打包命令&quot;&gt;5.更方便地执行打包命令&lt;/h1&gt;
+&lt;p&gt;执行类似于&lt;code class=&quot;highlighter-rouge&quot;&gt;node_modules/.bin/webpack&lt;/code&gt;这样的命令其实是比较烦人且容易出错的，不过值得庆幸的是npm可以引导任务执行，对其进行配置后可以使用简单的npm start命令来代替这些繁琐的命令。在package.json中对npm的脚本部分进行相关设置即可，设置方法如下。
+打开package.json，找到script代码块，更改为：&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&quot;scripts&quot;: { 
+    &quot;build&quot;: &quot;webpack&quot;
+    或者
+    &quot;start&quot;:&quot;webpack&quot;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;但是start是一个特殊的脚本名称，如果脚本名称不是start，则需要&lt;code class=&quot;highlighter-rouge&quot;&gt;npm run (script name)&lt;/code&gt;，如&lt;code class=&quot;highlighter-rouge&quot;&gt;npm run build&lt;/code&gt;，但是start可以直接执行&lt;code class=&quot;highlighter-rouge&quot;&gt;npm start&lt;/code&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;6使用source-maps使调试更容易&quot;&gt;6.使用Source Maps，使调试更容易&lt;/h1&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;devtool选项&lt;/th&gt;
+      &lt;th&gt;配置结果&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;source-map&lt;/td&gt;
+      &lt;td&gt;在一个单独的文件中产生一个完整且功能完全的文件。这个文件具有最好的source map，但是它会减慢打包文件的构建速度&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;cheap-module-source-map&lt;/td&gt;
+      &lt;td&gt;在一个单独的文件中生成一个不带列映射的map，不带列映射提高项目构建速度，但是也使得浏览器开发者工具只能对应到具体的行，不能对应到具体的列（符号），会对调试造成不便&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;eval-source-map&lt;/td&gt;
+      &lt;td&gt;使用eval打包源文件模块，在同一个文件中生成干净的完整的source map。这个选项可以在不影响构建速度的前提下生成完整的sourcemap，但是对打包后输出的JS文件的执行具有性能和安全的隐患。不过在开发阶段这是一个非常好的选项，但是在生产阶段一定不要用这个选项&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;cheap-module-eval-source-map&lt;/td&gt;
+      &lt;td&gt;这是在打包文件时最快的生成source map的方法，生成的Source Map 会和打包后的JavaScript文件同行显示，没有列映射，和eval-source-map选项具有相似的缺点&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;正如上表所述，上述选项由上到下打包速度越来越快，不过同时也具有越来越多的负面作用，较快的构建速度的后果就是对打包后的文件的的执行有一定影响。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;在学习阶段以及在小到中性的项目上，eval-source-map是一个很好的选项，不过记得只在开发阶段使用它，继续上面的例子，进行如下配置&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/webpack.config.js
+module.exports = { 
+    devtool: 'eval-source-map',//生成Source Maps,这里选择eval-source-map 
+    entry: __dirname + '/app/main.js',//唯一入口文件,__dirname是node.js中的一个全局变量，它指向当前执行脚本所在的目录 
+    output: {//输出目录 
+        path: __dirname + '/build',//打包后的js文件存放的地方 
+        filename: 'bundle.js'//打包后输出的js的文件名 
+    }
+};
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;7安装vue&quot;&gt;7.安装vue&lt;/h1&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm install vue
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h1 id=&quot;8安装必要的插件&quot;&gt;8.安装必要的插件&lt;/h1&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm install --save-dev babel-core babel-loader babel-preset-es2015
+npm install --save-dev webpack-dev-server
+npm install --save-dev node-sass sass-loader css-loader style-loader
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">1.创建项目 webpack-vue |- build |-- index.html |-- bundle.js(该文件是webpack打包后生成的) |- app |-- components |--- Dialog.jsx |-- main.js |- package.json(第二步生成) |- webpack.config.js(第四步生成) 2.创建package.json npm init 3.安装webpack //全局安装webpack，优点是打包时可以直接输webpack命令 npm install -g webpack //在本项目中安装webpack，--save-dev的意思是将依赖写入项目的package.json文件 npm install --save-dev webpack</summary></entry><entry><title type="html">前端资源汇总</title><link href="http://localhost:4000/2020/05/15/%E5%89%8D%E7%AB%AF%E8%B5%84%E6%BA%90%E6%B1%87%E6%80%BB.html" rel="alternate" type="text/html" title="前端资源汇总" /><published>2020-05-15T00:00:00+08:00</published><updated>2020-05-15T00:00:00+08:00</updated><id>http://localhost:4000/2020/05/15/%E5%89%8D%E7%AB%AF%E8%B5%84%E6%BA%90%E6%B1%87%E6%80%BB</id><content type="html" xml:base="http://localhost:4000/2020/05/15/%E5%89%8D%E7%AB%AF%E8%B5%84%E6%BA%90%E6%B1%87%E6%80%BB.html">&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;综合类&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;前端知识体系&lt;/td&gt;
+      &lt;td&gt;http://www.cnblogs.com/sb19871023/p/3894452.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;前端知识结构&lt;/td&gt;
+      &lt;td&gt;https://github.com/JacksonTian/fks&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;免费的编程中文书籍索引&lt;/td&gt;
+      &lt;td&gt;https://github.com/justjavac/free-programming-books-zh_CN&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;智能社 - 精通JavaScript开发&lt;/td&gt;
+      &lt;td&gt;http://study.163.com/course/introduction/224014.htm(视频教学)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;重新介绍 JavaScript（JS 教程）&lt;/td&gt;
+      &lt;td&gt;https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/A_re-introduction_to_JavaScript(文字教学)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;麻省理工学院公开课：计算机科学及编程导论&lt;/td&gt;
+      &lt;td&gt;http://v.163.com/special/opencourse/bianchengdaolun.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;JavaScript中的this陷阱的最全收集–没有之一&lt;/td&gt;
+      &lt;td&gt;http://segmentfault.com/a/1190000002640298&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;JS函数式编程指南&lt;/td&gt;
+      &lt;td&gt;https://llh911001.gitbooks.io/mostly-adequate-guide-chinese/content/ch1.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;JavaScript Promise迷你书（中文版）&lt;/td&gt;
+      &lt;td&gt;http://liubin.github.io/promises-book&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;腾讯移动Web前端知识库&lt;/td&gt;
+      &lt;td&gt;https://github.com/AlloyTeam/Mars&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;大前端工具集 - 聂微东&lt;/td&gt;
+      &lt;td&gt;https://github.com/nieweidong/fetool&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Web Front-end Stack v2.2&lt;/td&gt;
+      &lt;td&gt;https://raw.githubusercontent.com/unruledboy/WebFrontEndStack/master/Web%20Front%20End%20Stack.png&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;入门类&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;前端入门教程&lt;/td&gt;
+      &lt;td&gt;http://www.cnblogs.com/jikey/p/3613082.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;瘳雪峰的Javascript教程&lt;/td&gt;
+      &lt;td&gt;http://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000（js笔记）&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;jQuery基础教程&lt;/td&gt;
+      &lt;td&gt;http://www.imooc.com/view/11&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;前端工程师必备的PS技能——切图篇&lt;/td&gt;
+      &lt;td&gt;http://www.imooc.com/view/506&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;结合个人经历总结的前端入门方法&lt;/td&gt;
+      &lt;td&gt;https://github.com/qiu-deqing/FE-learning&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;jQuery&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;jQuery API 中文文档&lt;/td&gt;
+      &lt;td&gt;http://www.jquery123.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;hemin 在线版&lt;/td&gt;
+      &lt;td&gt;http://hemin.cn/jq&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;css88 jq api&lt;/td&gt;
+      &lt;td&gt;http://www.css88.com/jqapi-1.9/on&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;css88 jqui api&lt;/td&gt;
+      &lt;td&gt;http://www.css88.com/jquery-ui-api&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;学习jquery&lt;/td&gt;
+      &lt;td&gt;http://learn.jquery.comjquery&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;源码查找&lt;/td&gt;
+      &lt;td&gt;http://james.padolsey.com/jquery&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;综合API&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;runoob.com-包含各种API集合&lt;/td&gt;
+      &lt;td&gt;http://www.runoob.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;开源中国在线API文档合集&lt;/td&gt;
+      &lt;td&gt;http://tool.oschina.net/apidocsdevdocs–http://devdocs.io&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;英文综合API网站效果类&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt; js弹出层&lt;/td&gt;
+      &lt;td&gt;http://www.imooc.com/learn/58&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;js焦点图轮播特效&lt;/td&gt;
+      &lt;td&gt;http://www.imooc.com/learn/18&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;w3help&lt;/td&gt;
+      &lt;td&gt;http://www.w3help.org&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;综合Bug集合网站CSS&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;腾讯css3动画制作工具&lt;/td&gt;
+      &lt;td&gt;http://isux.tencent.com/css3/tools.html&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;志爷css小工具集合&lt;/td&gt;
+      &lt;td&gt;http://linxz.github.io/tianyizonebounce&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;js 触摸库&lt;/td&gt;
+      &lt;td&gt;http://bouncejs.com&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;animate.css&lt;/td&gt;
+      &lt;td&gt;http://daneden.github.io/animate.css&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;全局CSS的终结(狗带 [译]&lt;/td&gt;
+      &lt;td&gt;http://www.alloyteam.com/2015/10/8536 &lt;/td&gt;
+      &lt;td&gt;  &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;工具类&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;css sprite 雪碧图制作&lt;/td&gt;
+      &lt;td&gt;http://www.imooc.com/learn/93&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;版本控制入门 – 搬进 Github&lt;/td&gt;
+      &lt;td&gt;http://www.imooc.com/learn/390&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Grunt-beginner前端自动化工具&lt;/td&gt;
+      &lt;td&gt;http://www.imooc.com/learn/30&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;慕课专题&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;张鑫旭 - 慕课系列&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;http://www.imooc.com/space/teacher/id/197450&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;lyn - 慕课系列&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;http://www.imooc.com/space/teacher/id/104593&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;艾伦 - 慕课系列&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;http://www.imooc.com/space/teacher/id/290139&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;碧仔 - Hello，移动WEB&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;http://www.imooc.com/view/494&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;弹出层&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt; artDialog 最新版&lt;/td&gt;
+      &lt;td&gt;https://github.com/aui/artDialogartDialog&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;文档&lt;/td&gt;
+      &lt;td&gt;http://aui.github.io/artDialog/doc/index.htmlgoogle&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;code 下载地址&lt;/td&gt;
+      &lt;td&gt;https://code.google.com/p/artdialog/downloads/list&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;贤心弹出层&lt;/td&gt;
+      &lt;td&gt;http://layer.layui.com&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Angularjs&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Angular.js 的一些学习资源&lt;/td&gt;
+      &lt;td&gt;https://github.com/dolymood/AngularLearning&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Angular的一些扩展指令&lt;/td&gt;
+      &lt;td&gt;http://www.lovelucy.info/angularjs-best-practices.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Angular数据绑定原理&lt;/td&gt;
+      &lt;td&gt;https://github.com/Pasvaz/bindonce&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;一些扩展Angular UI组件&lt;/td&gt;
+      &lt;td&gt;https://github.com/angular-ui&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ember和AngularJS的性能测试&lt;/td&gt;
+      &lt;td&gt;http://voidcanvas.com/emberjs-vs-angularjs-performance-testing&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;带你走近AngularJS - 基本功能介绍&lt;/td&gt;
+      &lt;td&gt;http://www.cnblogs.com/powertoolsteam/p/angularjs-introdection.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Angularjs开发指南&lt;/td&gt;
+      &lt;td&gt;http://angular.duapp.com/docs/guide&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Angularjs学习&lt;/td&gt;
+      &lt;td&gt;http://www.cnblogs.com/amosli/p/3710648.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;不要带着jQuery的思维去学习AngularJS&lt;/td&gt;
+      &lt;td&gt;http://www.rainweb.cn/article/angularjs-jquery.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;angularjs 学习笔记&lt;/td&gt;
+      &lt;td&gt;http://wangjiatao.diandian.com/?tag=angularjs&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;angularjs 开发指南&lt;/td&gt;
+      &lt;td&gt;http://www.angularjs.cn/T008&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;angularjs 英文资料&lt;/td&gt;
+      &lt;td&gt;https://github.com/jmcunningham/&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;AngularJS-Learningangular bootstrap&lt;/td&gt;
+      &lt;td&gt;http://angular-ui.github.io/bootstrap&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;angular jq mobile&lt;/td&gt;
+      &lt;td&gt;https://github.com/opitzconsulting/jquery-mobile-angular-adapter&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;angular ui&lt;/td&gt;
+      &lt;td&gt;http://mgcrea.github.io/angular-strap&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;整合jQuery Mobile+AngularJS经验谈&lt;/td&gt;
+      &lt;td&gt;http://www.tuicool.com/articles/7ZZVr2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;有jQuery背景，该如何用AngularJS编程思想&lt;/td&gt;
+      &lt;td&gt;http://blog.jobbole.com/46589/ &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;AngularJS在线教程&lt;/td&gt;
+      &lt;td&gt;http://each.sinaapp.com/angular&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;angular学习笔记&lt;/td&gt;
+      &lt;td&gt;http://www.zouyesheng.com/angular.html&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;React&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;react.js 中文论坛&lt;/td&gt;
+      &lt;td&gt;http://www.react-china.org&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;react.js 官方网址&lt;/td&gt;
+      &lt;td&gt;https://facebook.github.io/react/index.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;react.js 官方文档&lt;/td&gt;
+      &lt;td&gt;https://facebook.github.io/react/docs/getting-started.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;react.js material UI&lt;/td&gt;
+      &lt;td&gt;http://material-ui.com/#react.js&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;TouchstoneJS UI&lt;/td&gt;
+      &lt;td&gt;http://touchstonejs.io&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;react.js amazeui UI&lt;/td&gt;
+      &lt;td&gt;http://amazeui.org/react&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;React 入门实例教程 - 阮一峰&lt;/td&gt;
+      &lt;td&gt;http://www.ruanyifeng.com/blog/2015/03/react.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;React Native 中文版&lt;/td&gt;
+      &lt;td&gt;http://wiki.jikexueyuan.com/project/react-native&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Webpack 和 React 小书 - 前端乱炖&lt;/td&gt;
+      &lt;td&gt;http://www.html-js.com/article/Fakefish%203053&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Webpack 和 React 小书 - gitbook&lt;/td&gt;
+      &lt;td&gt;https://fakefish.github.io/react-webpack-cookbook&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;webpack&lt;/td&gt;
+      &lt;td&gt;https://github.com/webpack/webpack&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Webpack，101入门体验&lt;/td&gt;
+      &lt;td&gt;http://html-js.com/article/3009&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;webpack入门教程&lt;/td&gt;
+      &lt;td&gt;http://html-js.com/article/3113&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;基于webpack搭建前端工程解决方案探索&lt;/td&gt;
+      &lt;td&gt;http://segmentfault.com/a/1190000003499526&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;React原创实战视频教程&lt;/td&gt;
+      &lt;td&gt;http://www.piliyu.com&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;移动端API&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;99移动端知识集合&lt;/td&gt;
+      &lt;td&gt;https://github.com/jtyjty99999/mobile&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Tech移动端前端开发知识库&lt;/td&gt;
+      &lt;td&gt;https://github.com/AlloyTeam/Mars&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;移动前端的一些坑和解决方法（外观表现）&lt;/td&gt;
+      &lt;td&gt;http://caibaojian.com/mobile-web-bug.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;【原】移动web资源整理&lt;/td&gt;
+      &lt;td&gt;http://www.cnblogs.com/PeunZhang/p/3407453.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;zepto 1.0 中文手册&lt;/td&gt;
+      &lt;td&gt;http://mweb.baidu.com/zeptoapi&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;zepto 1.0 中文手册&lt;/td&gt;
+      &lt;td&gt;http://www.html-5.cn/Manual/Zepto&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;zepto 1.1.2&lt;/td&gt;
+      &lt;td&gt;http://www.css88.com/doc/zeptojs_api&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;zepto 中文注释&lt;/td&gt;
+      &lt;td&gt;http://www.cnblogs.com/sky000/archive/2013/03/29/2988952.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;jqmobile 手册&lt;/td&gt;
+      &lt;td&gt;http://app-framework-software.intel.com/api.php&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;移动浏览器开发集合&lt;/td&gt;
+      &lt;td&gt;https://github.com/maxzhang/maxzhang.github.com/issues&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;移动开发大杂烩&lt;/td&gt;
+      &lt;td&gt;https://github.com/hoosin/mobile-web-favorites&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;微信webview中的一些问题&lt;/td&gt;
+      &lt;td&gt;http://lin-chao.github.io/2014/11/14/%E5%BE%AE%E4%BF%A1webview%E4%B8%AD%E7%9A%84%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;框架&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;特色的HTML框架可以创建精美的iOS应用&lt;/td&gt;
+      &lt;td&gt;http://framework7.taobao.org&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;淘宝SUI&lt;/td&gt;
+      &lt;td&gt;http://m.sui.taobao.org&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;avalon&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;avalonjs&lt;/td&gt;
+      &lt;td&gt;http://avalonjs.github.io&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Avalon新一代UI库： OniUI&lt;/td&gt;
+      &lt;td&gt;http://ued.qunar.com/oniui/index.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;avalon.oniui-基于avalon的组件库&lt;/td&gt;
+      &lt;td&gt;https://github.com/RubyLouvre/avalon.oniui&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Requriejs&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Javascript模块化编程（一）：模块的写法&lt;/td&gt;
+      &lt;td&gt;http://www.ruanyifeng.com/blog/2012/10/javascript_module.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Javascript模块化编程（二）：AMD规范&lt;/td&gt;
+      &lt;td&gt;http://www.ruanyifeng.com/blog/2012/10/asynchronous_module_definition.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Javascript模块化编程（三）：require.js的用法&lt;/td&gt;
+      &lt;td&gt;http://www.ruanyifeng.com/blog/2012/11/require_js.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;RequireJS入门（一）&lt;/td&gt;
+      &lt;td&gt;http://www.cnblogs.com/snandy/archive/2012/05/22/2513652.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;RequireJS入门（二）&lt;/td&gt;
+      &lt;td&gt;http://www.cnblogs.com/snandy/archive/2012/05/23/2513712.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;RequireJS进阶（三）&lt;/td&gt;
+      &lt;td&gt;http://www.cnblogs.com/snandy/archive/2012/06/08/2538001.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;requrie源码学习&lt;/td&gt;
+      &lt;td&gt;http://www.cnblogs.com/yexiaochai/p/3632580.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;requrie 入门指南&lt;/td&gt;
+      &lt;td&gt;http://www.oschina.net/translate/getting-started-with-the-requirejs-library&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;requrieJS 学习笔记&lt;/td&gt;
+      &lt;td&gt;http://www.cnblogs.com/yexiaochai/p/3214926.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;requriejs 其一&lt;/td&gt;
+      &lt;td&gt;http://cyj.me/why-seajs/requirejs/&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;require backbone结合&lt;/td&gt;
+      &lt;td&gt;http://www.cnblogs.com/yexiaochai/p/3221081.html&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Seajs&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;seajs&lt;/td&gt;
+      &lt;td&gt;http://seajs.org&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;seajs 中文手册&lt;/td&gt;
+      &lt;td&gt;http://cyj.me/why-seajs/zh&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Less,sass&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;sass&lt;/td&gt;
+      &lt;td&gt;http://www.w3cplus.com/sassguide&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;sass教程-sass中国&lt;/td&gt;
+      &lt;td&gt;http://www.sass.hk&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Sass 中文文档&lt;/td&gt;
+      &lt;td&gt;http://sass.bootcss.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;less&lt;/td&gt;
+      &lt;td&gt;http://less.bootcss.com&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Markdown&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Markdown 语法说明 (简体中文版&lt;/td&gt;
+      &lt;td&gt;http://wowubuntu.com/markdown&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;markdown入门参考&lt;/td&gt;
+      &lt;td&gt;https://github.com/LearnShare/Learning-Markdown/blob/master/README.md&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;gitbook&lt;/td&gt;
+      &lt;td&gt;https://www.gitbook.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;国外的在线markdown可编辑成书mdeditor&lt;/td&gt;
+      &lt;td&gt;https://www.zybuluo.com/md&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;editor 一款国内的在线markdown编辑器stackedit&lt;/td&gt;
+      &lt;td&gt;https://stackedit.io&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;国外的在线markdown编辑器，功能强大，同步云盘mditor&lt;/td&gt;
+      &lt;td&gt;http://bh-lay.github.io/md&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;editor 一款轻量级的markdown编辑器lepture-editor&lt;/td&gt;
+      &lt;td&gt;https://github.com/lepture/editor&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;markdown-editor&lt;/td&gt;
+      &lt;td&gt;https://github.com/jbt/markdown-editor&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;D3&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;d3 Tutorials&lt;/td&gt;
+      &lt;td&gt;https://github.com/mbostock/d3/wiki/Tutorials&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Gallery&lt;/td&gt;
+      &lt;td&gt;https://github.com/mbostock/d3/wiki/Gallery&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;lofter&lt;/td&gt;
+      &lt;td&gt;http://datavisual.lofter.com/post/40cf3a_188e535&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;iteye&lt;/td&gt;
+      &lt;td&gt;http://alanland.iteye.com/blog/1878595&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ruanyifeng&lt;/td&gt;
+      &lt;td&gt;http://javascript.ruanyifeng.com/library/d3.html&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;兼容性&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;esma 兼容列表&lt;/td&gt;
+      &lt;td&gt;http://kangax.github.io/compat-table/es6&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;W3C CSS验证服务&lt;/td&gt;
+      &lt;td&gt;http://jigsaw.w3.org/css-validator/validator.html.zh-cn&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;caniuse&lt;/td&gt;
+      &lt;td&gt;http://caniuse.com/#index&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;csscreator&lt;/td&gt;
+      &lt;td&gt;http://csscreator.com/properties&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;microsoft&lt;/td&gt;
+      &lt;td&gt;https://msdn.microsoft.com/zh-cn/library/cc351024(v=vs.85.aspx&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;在线测兼容-移动端&lt;/td&gt;
+      &lt;td&gt;http://www.responsinator.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;emulators&lt;/td&gt;
+      &lt;td&gt;https://www.manymo.com/emulators&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;UI相关&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;bootcss&lt;/td&gt;
+      &lt;td&gt;http://v3.bootcss.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;MetroUICSS&lt;/td&gt;
+      &lt;td&gt;http://www.w3cplus.com/MetroUICSS&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;semantic&lt;/td&gt;
+      &lt;td&gt;http://semantic-ui.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Buttons&lt;/td&gt;
+      &lt;td&gt;http://alexwolfe.github.io/Buttons&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;kitecss&lt;/td&gt;
+      &lt;td&gt;http://hiloki.github.io/kitecss&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;pintuer&lt;/td&gt;
+      &lt;td&gt;http://www.pintuer.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;amazeui&lt;/td&gt;
+      &lt;td&gt;http://amazeui.org&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;worldhello&lt;/td&gt;
+      &lt;td&gt;http://www.worldhello.net/gotgithub/index.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;linuxtoy&lt;/td&gt;
+      &lt;td&gt;http://igit.linuxtoy.org/contents.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;gitmagic&lt;/td&gt;
+      &lt;td&gt;http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/zh_cn&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;rogerdudler&lt;/td&gt;
+      &lt;td&gt;http://rogerdudler.github.io/git-guide/index.zh.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;gitref&lt;/td&gt;
+      &lt;td&gt;http://gitref.justjavac.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;book&lt;/td&gt;
+      &lt;td&gt;http://git-scm.com/book/zh&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;gogojimmy&lt;/td&gt;
+      &lt;td&gt;http://gogojimmy.net/2012/01/17/how-to-use-git-1-git-basic&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;HTTP&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;HTTP API 设计指南&lt;/td&gt;
+      &lt;td&gt;http://segmentfault.com/bookmark/1230000002521721&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;其它API&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;javascript流行库汇总 javascriptoo验证api&lt;/td&gt;
+      &lt;td&gt;http://niceue.com/validator/demo/index.php&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;underscore 中文手册&lt;/td&gt;
+      &lt;td&gt;http://www.css88.com/doc/underscore&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;underscore源码分析&lt;/td&gt;
+      &lt;td&gt;http://www.html-js.com/article/Underscorejs-source-code-analysis-of-underscorejs-source-code-analysis%203031&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;underscore源码分析-亚里士朱德的博客&lt;/td&gt;
+      &lt;td&gt;http://yalishizhude.github.io/tags/underscore&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;underscrejs en api&lt;/td&gt;
+      &lt;td&gt;http://underscorejs.org&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;lodash - underscore的代替品&lt;/td&gt;
+      &lt;td&gt;https://lodash.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ext4api&lt;/td&gt;
+      &lt;td&gt;http://extjs-doc-cn.github.io/ext4api&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;backbone 中文手册&lt;/td&gt;
+      &lt;td&gt;http://www.csser.com/tools/backbone/backbone.js.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;qwrap手册&lt;/td&gt;
+      &lt;td&gt;http://dev.qwrap.com/resource/js/&lt;em&gt;docs/_youa/#/qw/base/loadJs&lt;/em&gt;.htm&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;缓动函数&lt;/td&gt;
+      &lt;td&gt;http://easings.net/zh-cn&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;svg 中文参考&lt;/td&gt;
+      &lt;td&gt;http://www.w3school.com.cn/svg/svg_reference.asp&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;svg mdn参考&lt;/td&gt;
+      &lt;td&gt;https://developer.mozilla.org/en-US/docs/Web/SVG&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;svg 导出 canvas&lt;/td&gt;
+      &lt;td&gt;https://github.com/gabelerner/canvg&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;svg 导出 png&lt;/td&gt;
+      &lt;td&gt;https://github.com/exupero/saveSvgAsPng&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ai-to-svg&lt;/td&gt;
+      &lt;td&gt;http://www.zamzar.com/convert/ai-to-svg&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;localStorage 库&lt;/td&gt;
+      &lt;td&gt;https://github.com/machao/localStorage&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;图表类&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Highcharts 中文API&lt;/td&gt;
+      &lt;td&gt;http://www.hcharts.cn/api/index.php&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Highcharts 英文API&lt;/td&gt;
+      &lt;td&gt;http://api.highcharts.com/highcharts&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ECharts 百度的图表软件&lt;/td&gt;
+      &lt;td&gt;http://echarts.baidu.com/&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;高德地图&lt;/td&gt;
+      &lt;td&gt;http://lbs.amap.com/api&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;开源的矢量图脚本框架&lt;/td&gt;
+      &lt;td&gt;http://paperjs.org&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;svg 地图&lt;/td&gt;
+      &lt;td&gt;http://jvectormap.com&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;vue&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Vue&lt;/td&gt;
+      &lt;td&gt;http://cn.vuejs.org&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Vue 论坛&lt;/td&gt;
+      &lt;td&gt;http://forum.vuejs.org&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Vue 入门指南&lt;/td&gt;
+      &lt;td&gt;http://www.cnblogs.com/aaronjs/p/3660102.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Vue 的一些资源索引&lt;/td&gt;
+      &lt;td&gt;http://segmentfault.com/a/1190000000411057&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;awesome-vue&lt;/td&gt;
+      &lt;td&gt;https://github.com/vuejs/awesome-vue&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;正则&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;JS正则表达式元字符&lt;/td&gt;
+      &lt;td&gt;http://segmentfault.com/a/1190000002471140&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;正则表达式30分钟入门教程&lt;/td&gt;
+      &lt;td&gt;http://deerchao.net/tutorials/regex/regex.htm&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;MDN-正则表达式&lt;/td&gt;
+      &lt;td&gt;https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Regular_Expressions&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ruanyifeng - RegExp对象&lt;/td&gt;
+      &lt;td&gt;http://javascript.ruanyifeng.com/stdlib/regexp.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;小胡子哥 - 进阶正则表达式&lt;/td&gt;
+      &lt;td&gt;http://div.io/topic/764?page=1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;is.js&lt;/td&gt;
+      &lt;td&gt;https://github.com/Cedriking/is.js/blob/master/is.js&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;正则在线测试&lt;/td&gt;
+      &lt;td&gt;http://regexper.com&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;ionic&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ionic&lt;/td&gt;
+      &lt;td&gt;https://github.com/ychow/ionic-guide&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;其它&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Mock.js 是一款模拟数据生成器&lt;/td&gt;
+      &lt;td&gt;http://mockjs.com&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;前端&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;通过分析github代码库总结出来的工程师代码书写习惯&lt;/td&gt;
+      &lt;td&gt;http://alloyteam.github.io/CodeGuide&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;HTML&amp;amp;CSS编码规范 by @mdo&lt;/td&gt;
+      &lt;td&gt;http://codeguide.bootcss.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;团队合作的css命名规范-腾讯AlloyTeam前端团队&lt;/td&gt;
+      &lt;td&gt;http://www.alloyteam.com/2011/10/107&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;前端编码规范之js - by yuwenhui&lt;/td&gt;
+      &lt;td&gt;http://yuwenhui.github.io&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;前端编码规范之js - by 李靖&lt;/td&gt;
+      &lt;td&gt;http://www.cnblogs.com/hustskyking/p/javascript-spec.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;前端开发规范手册&lt;/td&gt;
+      &lt;td&gt;http://zhibimo.com/read/Ashu/front-end-style-guideAirbnb&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;JavaScript 编码规范（简体中文版）&lt;/td&gt;
+      &lt;td&gt;https://github.com/yuche/javascript#table-of-contents&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;AMD与CMD规范的区别&lt;/td&gt;
+      &lt;td&gt;http://www.zhihu.com/question/20351507&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;AMD与CMD规范的区别&lt;/td&gt;
+      &lt;td&gt;http://www.cnblogs.com/tugenhua0707/p/3507957.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;KISSY 源码规范&lt;/td&gt;
+      &lt;td&gt;http://docs.kissyui.com/1.4/docs/html/tutorials/style-guide/kissy-source-style.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;bt编码规范&lt;/td&gt;
+      &lt;td&gt;http://codeguide.bootcss.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;规范加强版&lt;/td&gt;
+      &lt;td&gt;https://github.com/Suxiaogang/Code_Guide&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;前端代码规范 及 最佳实践&lt;/td&gt;
+      &lt;td&gt;http://blog.jobbole.com/79075&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;百度前端规范&lt;/td&gt;
+      &lt;td&gt;http://coderlmn.github.io/code-standards&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;百度前端规范&lt;/td&gt;
+      &lt;td&gt;http://isobar-idev.github.io/code-standards&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;百度前端规范&lt;/td&gt;
+      &lt;td&gt;http://zhuanlan.zhihu.com/fuyun/19884834&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ECMAScript6 编码规范–广发证券前端团队&lt;/td&gt;
+      &lt;td&gt;https://github.com/gf-rd/es6-coding-style&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;JavaScript 风格指南/编码规范（Airbnb公司版）&lt;/td&gt;
+      &lt;td&gt;http://blog.jobbole.com/79484&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;网易前端开发规范&lt;/td&gt;
+      &lt;td&gt;http://nec.netease.com/standard&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;css模块&lt;/td&gt;
+      &lt;td&gt;http://www.75team.com/archives/1049&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;前端规范资源列表&lt;/td&gt;
+      &lt;td&gt;https://github.com/ecomfe/spec&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;PHP&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;最流行的PHP 代码规范&lt;/td&gt;
+      &lt;td&gt;http://segmentfault.com/a/1190000000443795&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;最流行的PHP 代码规范&lt;/td&gt;
+      &lt;td&gt;https://github.com/hfcorriez/fig-standards/blob/zh_CN/%E6%8E%A5%E5%8F%97/PSR-2-coding-style-guide.md&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Android&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;【敏捷开发】Android团队开发规范&lt;/td&gt;
+      &lt;td&gt;http://www.cnblogs.com/lcw/p/3619181.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Android 开发规范与应用&lt;/td&gt;
+      &lt;td&gt;http://www.jianshu.com/p/4390f4fe19b3&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;各大公司开源项目&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Facebook Projects&lt;/td&gt;
+      &lt;td&gt;https://code.facebook.com/projects/web&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;百度web前端研发部&lt;/td&gt;
+      &lt;td&gt;http://fex.baidu.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;百度EFE&lt;/td&gt;
+      &lt;td&gt;http://efe.baidu.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;百度github&lt;/td&gt;
+      &lt;td&gt;https://github.com/fex-team&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;alloyteam&lt;/td&gt;
+      &lt;td&gt;http://www.alloyteam.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;alloyteam-github&lt;/td&gt;
+      &lt;td&gt;http://alloyteam.github.io&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;alloyteam-AlloyGameEngine&lt;/td&gt;
+      &lt;td&gt;https://github.com/AlloyTeam/AlloyGameEngine&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;AlloyDesigner&lt;/td&gt;
+      &lt;td&gt;http://alloyteam.github.io/AlloyDesigner&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;即时修改，即时保存，设计稿较正，其它开发辅助工具H5交互页编辑器AEditor介绍&lt;/td&gt;
+      &lt;td&gt;http://www.alloyteam.com/2015/06/h5-jiao-hu-ye-bian-ji-qi-aeditor-jie-shao&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;H5动画交互页开发的工具介绍AEditor&lt;/td&gt;
+      &lt;td&gt;http://aeditor.alloyteam.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;H5动画交互页开发的工具maka&lt;/td&gt;
+      &lt;td&gt;http://forum.maka.im/wordpress&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;值得订阅的weekly&lt;/td&gt;
+      &lt;td&gt;https://github.com/fenbility/weekly-feed&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;腾讯html5&lt;/td&gt;
+      &lt;td&gt;http://cube.qq.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;奇舞团开源项目&lt;/td&gt;
+      &lt;td&gt;http://75team.github.io&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Qunar UED&lt;/td&gt;
+      &lt;td&gt;http://ued.qunar.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Scrat&lt;/td&gt;
+      &lt;td&gt;http://scrat.io&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;常用&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ieBetter.js-让IE6-IE8拥有IE9+,Chrome等浏览器特性&lt;/td&gt;
+      &lt;td&gt;http://www.zhangxinxu.com/wordpress/2013/12/iebetter-js-make-ie6-ie8-like-modern-browser-ie9-chrome&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;模拟键盘&lt;/td&gt;
+      &lt;td&gt;http://mottie.github.io/&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Keyboard拼音&lt;/td&gt;
+      &lt;td&gt;https://github.com/hotoo/pinyin&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;中国个人身份证号验证&lt;/td&gt;
+      &lt;td&gt;https://github.com/mc-zone/IDValidator&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;算法&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;数据结构与算法 JavaScript 描述. 章节练习&lt;/td&gt;
+      &lt;td&gt;https://github.com/Ralph-Wang/algorithm.in.js&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;常见排序算法（JS版）&lt;/td&gt;
+      &lt;td&gt;https://github.com/twobin/twobin&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Sort经典排序&lt;/td&gt;
+      &lt;td&gt;https://github.com/luofei2011/jsAgm/blob/master/js/sort.js&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;常见排序算法-js版本&lt;/td&gt;
+      &lt;td&gt;https://github.com/hechangmin/jssort&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;JavaScript 算法与数据结构 精华集&lt;/td&gt;
+      &lt;td&gt;https://github.com/lightningtgc/JavaScript-Algorithms&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;面试常考算法题精讲&lt;/td&gt;
+      &lt;td&gt;http://www.nowcoder.com/live/courses&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;移动端&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;fastclick&lt;/td&gt;
+      &lt;td&gt;https://github.com/ftlabs/fastclick&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;no-click-delay&lt;/td&gt;
+      &lt;td&gt;https://github.com/mmastrac/jquery-noclickdelay&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;JSON&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;模拟生成JSON数据&lt;/td&gt;
+      &lt;td&gt;http://beta.json-generator.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;返回跨域JSONAPI&lt;/td&gt;
+      &lt;td&gt;http://jsonp.afeld.me&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Html5&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;HTML5 有哪些让你惊艳的 demo？&lt;/td&gt;
+      &lt;td&gt;http://www.zhihu.com/question/24398907&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;CSS&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;browserhacks&lt;/td&gt;
+      &lt;td&gt;http://browserhacks.com&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;焦点图&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;myfocus&lt;/td&gt;
+      &lt;td&gt;https://github.com/koen301/myfocus&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;myfocus-官方演示站&lt;/td&gt;
+      &lt;td&gt;http://www.chhua.com/myfocus&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;SuperSlidev2.1 – 大话主席&lt;/td&gt;
+      &lt;td&gt;http://www.superslide2.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;soChange&lt;/td&gt;
+      &lt;td&gt;http://www.bujichong.com/sojs/soChange/index.html&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Ext, EasyUI, J-UI 及其它各种UI方案&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;extjs&lt;/td&gt;
+      &lt;td&gt;https://www.sencha.com/products/extjs&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ext4英文api&lt;/td&gt;
+      &lt;td&gt;http://docs.sencha.com/extjs/4.0.7&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ext4中文api&lt;/td&gt;
+      &lt;td&gt;http://extjs-doc-cn.github.io/ext4api&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;EasyUI&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;jquery easyui 未压缩源代码&lt;/td&gt;
+      &lt;td&gt;http://jquery-easyui.googlecode.com/svn/trunk/src&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;J-UI&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;J-UI&lt;/td&gt;
+      &lt;td&gt;http://jui.org&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Other&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;MUI-最接近原生APP体验的高性能前端框架&lt;/td&gt;
+      &lt;td&gt;http://dcloudio.github.io/mui&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Amaze UI 中国首个开源 HTML5 跨屏前端框架&lt;/td&gt;
+      &lt;td&gt;http://amazeui.org&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;淘宝 HTML5 前端框架&lt;/td&gt;
+      &lt;td&gt;http://m.sui.taobao.org&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;KISSY - 阿里前端JavaScript库&lt;/td&gt;
+      &lt;td&gt;http://docs.kissyui.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;网易Nej - Nice Easy Javascript&lt;/td&gt;
+      &lt;td&gt;http://nej.netease.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Kendo UI MVVM Demo&lt;/td&gt;
+      &lt;td&gt;http://demos.telerik.com/kendo-ui/mvvm/index&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Bootstrap&lt;/td&gt;
+      &lt;td&gt;http://www.bootcss.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Smart UI&lt;/td&gt;
+      &lt;td&gt;http://smartui.chinamzz.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;雅虎UI - CSS UI&lt;/td&gt;
+      &lt;td&gt;http://developer.yahoo.com/yui/grids&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;页面 社会化 分享功能&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;百度分享&lt;/td&gt;
+      &lt;td&gt;http://share.baidu.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;pc端JiaThis&lt;/td&gt;
+      &lt;td&gt;http://jiathis.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;pc端社会化分享组件&lt;/td&gt;
+      &lt;td&gt;http://developer.baidu.com/soc/share&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;移动端ShareSDK 轻松实现社会化功能&lt;/td&gt;
+      &lt;td&gt;http://www.mob.com/#/index&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;移动端友盟分享&lt;/td&gt;
+      &lt;td&gt;http://dev.umeng.com/social/android/quick-integration&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;移动端富文本编辑器&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;功能齐全 tinymce&lt;/td&gt;
+      &lt;td&gt;https://www.tinymce.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;百度 ueditor&lt;/td&gt;
+      &lt;td&gt;http://ueditor.baidu.com/website&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;经典的ckeditor&lt;/td&gt;
+      &lt;td&gt;http://ckeditor.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;经典的kindeditor&lt;/td&gt;
+      &lt;td&gt;http://kindeditor.net&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;wysiwyg&lt;/td&gt;
+      &lt;td&gt;http://www.bootcss.com/p/bootstrap-wysiwyg&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;一个有情怀的编辑器。Bach’s Editor&lt;/td&gt;
+      &lt;td&gt;http://integ.github.io/BachEditor&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;tower用的编辑器&lt;/td&gt;
+      &lt;td&gt;https://github.com/mycolorway/simditor&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;summernote 编辑器&lt;/td&gt;
+      &lt;td&gt;https://github.com/summernote/summernote&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;html5编辑器&lt;/td&gt;
+      &lt;td&gt;http://neilj.github.io/Squire&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;XEditor&lt;/td&gt;
+      &lt;td&gt;http://lab.hustlzp.com/XEditor&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;wangEditor&lt;/td&gt;
+      &lt;td&gt;https://github.com/wangfupeng1988/wangEditor&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;PC&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;经典my97&lt;/td&gt;
+      &lt;td&gt;http://www.my97.net/dp/demo/index.htm&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;强大的独立日期选择器&lt;/td&gt;
+      &lt;td&gt;http://www.cnblogs.com/gbin1/archive/2012/04/16/2452105.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;fullcalendar&lt;/td&gt;
+      &lt;td&gt;http://fullcalendar.io&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;fullcalendar日历控件知识点集合&lt;/td&gt;
+      &lt;td&gt;http://blog.csdn.net/francislaw/article/details/7740630&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;中文api&lt;/td&gt;
+      &lt;td&gt;http://blog.sina.com.cn/s/blog_9475b1c101012c5f.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;农历日历&lt;/td&gt;
+      &lt;td&gt;https://github.com/zzyss86/LunarCalendar&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;超酷的仿百度带节日日历老黄历控件&lt;/td&gt;
+      &lt;td&gt;http://www.sucaisj.com/jiaoben/date/201509/16856.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;日期格式化&lt;/td&gt;
+      &lt;td&gt;http://momentjs.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;大牛日历控件&lt;/td&gt;
+      &lt;td&gt;https://github.com/Johnqing/QPAYCalendar&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;我群某管理作品&lt;/td&gt;
+      &lt;td&gt;https://github.com/Iamlars/date&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Markerinput按位替换-官网&lt;/td&gt;
+      &lt;td&gt;http://digitalbush.com/projects/masked-input-plugin&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;input按位替换-github&lt;/td&gt;
+      &lt;td&gt;https://github.com/digitalBush/jquery.maskedinput/tree/1.2.2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;bootstrap-daterangepicker&lt;/td&gt;
+      &lt;td&gt;https://github.com/dangrossman/bootstrap-daterangepicker&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;国外30个插件集合&lt;/td&gt;
+      &lt;td&gt;http://www.vandelaydesign.com/30-best-free-jquery-plugins&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;JavaScript datepicker&lt;/td&gt;
+      &lt;td&gt;http://dbushell.com/2012/10/09/pikaday-javascript-datepicker&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Datepair.js&lt;/td&gt;
+      &lt;td&gt;http://jonthornton.github.io/Datepair.js&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;一个风格多样的日历&lt;/td&gt;
+      &lt;td&gt;https://github.com/glad/gl&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;DatePicker弹出层式的全日历&lt;/td&gt;
+      &lt;td&gt;http://amsul.ca/pickadate.js/date&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;jquery双日历&lt;/td&gt;
+      &lt;td&gt;http://www.daterangepicker.com&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;移动&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;大气实用jQuery手机移动端日历日期选择插件&lt;/td&gt;
+      &lt;td&gt;http://www.frankdemo.cn/index.php?c=content&amp;amp;a=show&amp;amp;id=115&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;jQuery Mobile 移动开发中的日期插件Mobiscroll&lt;/td&gt;
+      &lt;td&gt;https://mobiscroll.com&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Date library&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Datejs&lt;/td&gt;
+      &lt;td&gt;https://github.com/datejs/Datejs&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;sugarjs&lt;/td&gt;
+      &lt;td&gt;http://sugarjs.com/api/Date&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;综合效果搜索平台&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;效果网&lt;/td&gt;
+      &lt;td&gt;http://www.jq22.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;17素材&lt;/td&gt;
+      &lt;td&gt;http://www.17sucai.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;常用的JavaScript代码片段&lt;/td&gt;
+      &lt;td&gt;http://microjs.com&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;概述&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;前端工具大全&lt;/td&gt;
+      &lt;td&gt;http://www.awesomes.cn&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;什么是前端工程化&lt;/td&gt;
+      &lt;td&gt;https://github.com/fouber/blog/issues/10?from=timeline&amp;amp;isappinstalled=0#&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Gulp&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Gulp官网&lt;/td&gt;
+      &lt;td&gt;http://gulpjs.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Gulp中文网&lt;/td&gt;
+      &lt;td&gt;http://www.gulpjs.com.cn&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;gulp资料收集&lt;/td&gt;
+      &lt;td&gt;https://github.com/Platform-CUF/use-gulp&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Gulp：任务自动管理工具 - ruanyifeng&lt;/td&gt;
+      &lt;td&gt;http://javascript.ruanyifeng.com/tool/gulp.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Gulp插件&lt;/td&gt;
+      &lt;td&gt;http://gulpjs.com/plugins&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Gulp不完全入门教程&lt;/td&gt;
+      &lt;td&gt;http://www.ido321.com/1622.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;为什么使用gulp?&lt;/td&gt;
+      &lt;td&gt;https://github.com/hjzheng/CUF_meeting_knowledge_share/issues/33&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Gulp安装及配合组件构建前端开发一体化&lt;/td&gt;
+      &lt;td&gt;http://www.dbpoo.com/getting-started-with-gulp&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Gulp 入门指南&lt;/td&gt;
+      &lt;td&gt;https://github.com/nimojs/gulp-book&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Gulp 入门指南 - nimojs&lt;/td&gt;
+      &lt;td&gt;https://github.com/nimojs/blog/issues/19&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Gulp入门教程&lt;/td&gt;
+      &lt;td&gt;http://markpop.github.io/2014/09/17/Gulp%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Gulp in Action&lt;/td&gt;
+      &lt;td&gt;http://www.imooc.com/video/5692&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Gulp开发教程（翻译）&lt;/td&gt;
+      &lt;td&gt;http://www.w3ctech.com/topic/134&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;前端构建工具gulpjs的使用介绍及技巧&lt;/td&gt;
+      &lt;td&gt;http://www.cnblogs.com/2050/p/4198792.html&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Grunt&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;gruntjs&lt;/td&gt;
+      &lt;td&gt;http://gruntjs.com&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;Grunt中文网&lt;/td&gt;
+      &lt;td&gt;http://www.gruntjs.net&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Fis&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;fis 官网&lt;/td&gt;
+      &lt;td&gt;http://fex-team.github.io/fis-site/index.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;fis&lt;/td&gt;
+      &lt;td&gt;http://fis.baidu.com&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;pc图轮&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;单屏轮播sochange&lt;/td&gt;
+      &lt;td&gt;http://www.jsfoot.com/jquery/demo/2011-09-20/192.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;左右按钮多图切换&lt;/td&gt;
+      &lt;td&gt;http://bxslider.com/examples/carousel-demystified&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;fullpage全屏轮播&lt;/td&gt;
+      &lt;td&gt;https://github.com/alvarotrigo/fullPage.js&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;移动端&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;无缝切换&lt;/td&gt;
+      &lt;td&gt;http://www.swipejs.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;滑屏效果&lt;/td&gt;
+      &lt;td&gt;http://www.idangero.us/swiper&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;全屏fullpage&lt;/td&gt;
+      &lt;td&gt;https://github.com/peunzhang/fullpage&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;单个图片切换&lt;/td&gt;
+      &lt;td&gt;https://github.com/qiqiboy/touchslider&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;单个全屏切换&lt;/td&gt;
+      &lt;td&gt;https://github.com/peunzhang/slip.js&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;百度的切换库&lt;/td&gt;
+      &lt;td&gt;http://touch.code.baidu.com/examples.html?qq-pf-to=pcqq.group&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;单个全屏切换&lt;/td&gt;
+      &lt;td&gt;https://github.com/peunzhang/iSlider&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;滑屏效果&lt;/td&gt;
+      &lt;td&gt;https://github.com/saw/touch-interfaces&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;旋转拖动设置&lt;/td&gt;
+      &lt;td&gt;http://baijs.com/tinycircleslider&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;类似于swipe切换&lt;/td&gt;
+      &lt;td&gt;http://touchslider.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;支持多种形式的触摸滑动&lt;/td&gt;
+      &lt;td&gt;http://www.swiper.com.cn/demo/index.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;滑屏效果&lt;/td&gt;
+      &lt;td&gt;https://github.com/joker-ye/main/blob/master/wap/index.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;大话主席pc移动图片轮换&lt;/td&gt;
+      &lt;td&gt;http://www.superslide2.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;滑屏效果&lt;/td&gt;
+      &lt;td&gt;https://github.com/hahnzhu/parallax.js&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;基于zepto的fullpage&lt;/td&gt;
+      &lt;td&gt;https://github.com/yanhaijing/zepto.fullpage&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[WebApp]定宽网页设计下，固定宽度布局开发WebApp并实现多终端下WebApp布局自适应&lt;/td&gt;
+      &lt;td&gt;http://www.cnblogs.com/plums/archive/2013/01/10/WebApp-fixed-width-layout-of-multi-terminal-adapter-since.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;判断微信客户端的那些坑&lt;/td&gt;
+      &lt;td&gt;http://loo2k.com/blog/detecting-wechat-client&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;可以通过javascript直接调用原生分享的工具&lt;/td&gt;
+      &lt;td&gt;https://github.com/JefferyWang/nativeShare.js&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;JiaThis 分享到微信代码&lt;/td&gt;
+      &lt;td&gt;http://www.jiathis.com/help/html/weixin-share-code&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;聊聊移动端跨平台开发的各种技术&lt;/td&gt;
+      &lt;td&gt;http://fex.baidu.com/blog/2015/05/cross-mobile&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;前端自动化测试&lt;/td&gt;
+      &lt;td&gt;http://www.zhihu.com/question/29922082&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;多种轮换图片&lt;/td&gt;
+      &lt;td&gt;http://ajccom.github.io/niceslider&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;滑动侧边栏&lt;/td&gt;
+      &lt;td&gt;https://mango.github.io/slideout&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;文件上传&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;百度上传组件&lt;/td&gt;
+      &lt;td&gt;http://fex.baidu.com/web&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;uploader上传&lt;/td&gt;
+      &lt;td&gt;https://blueimp.github.io/jQuery-File-Upload&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;flash 头像上传&lt;/td&gt;
+      &lt;td&gt;http://www.hdfu.net&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;图片上传预览&lt;/td&gt;
+      &lt;td&gt;http://www.dropzonejs.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;图片裁剪&lt;/td&gt;
+      &lt;td&gt;http://elemefe.github.io/image-cropper&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;图片裁剪-shearphoto&lt;/td&gt;
+      &lt;td&gt;http://www.shearphoto.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;jQuery图片处理&lt;/td&gt;
+      &lt;td&gt;http://www.oschina.net/project/tag/284/jquery-image-tools?lang=0&amp;amp;os=0&amp;amp;sort=view&amp;amp;p=2&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;模拟select&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;糖饼 select&lt;/td&gt;
+      &lt;td&gt;http://aui.github.io/popupjs/doc/selectbox.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;flexselect&lt;/td&gt;
+      &lt;td&gt;https://github.com/rmm5t/jquery-flexselect&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;双select&lt;/td&gt;
+      &lt;td&gt;http://loudev.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;select2&lt;/td&gt;
+      &lt;td&gt;http://select2.github.io&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;取色插件&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;类似 Photoshop 的界面取色插件&lt;/td&gt;
+      &lt;td&gt;http://www.jq22.com/plugin/367&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;jquery color&lt;/td&gt;
+      &lt;td&gt;https://github.com/jquery/jquery-color&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;取色插件集合&lt;/td&gt;
+      &lt;td&gt;http://www.oschina.net/project/tag/287/color-pickerfarbtastic&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;圆环＋正方形&lt;/td&gt;
+      &lt;td&gt;https://github.com/mattfarina/farbtastic&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;城市联动&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;jquery.cityselect.js基于jQuery+JSON的省市或自定义联动效果&lt;/td&gt;
+      &lt;td&gt;http://www.ijquery.cn/?p=360&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;剪贴板&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;剪贴板&lt;/td&gt;
+      &lt;td&gt;https://github.com/zeroclipboard/zeroclipboard&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;clipboard 最新的剪切方案&lt;/td&gt;
+      &lt;td&gt;http://zenorocha.github.io/clipboard.js&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;不是Flash的剪贴板&lt;/td&gt;
+      &lt;td&gt;https://github.com/zenorocha/clipboard.js&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;简繁转换&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;简繁转换&lt;/td&gt;
+      &lt;td&gt;https://github.com/BYVoid/OpenCC&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;表格 Grid&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;facebook表格&lt;/td&gt;
+      &lt;td&gt;http://facebook.github.io/fixed-data-table&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;类似于Excel编辑表格-handsontable&lt;/td&gt;
+      &lt;td&gt;http://handsontable.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;bootstrap-table插件&lt;/td&gt;
+      &lt;td&gt;http://bootstrap-table.wenzhixin.net.cn&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;datatables&lt;/td&gt;
+      &lt;td&gt;https://www.datatables.net&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;在线演示&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;js 在线编辑 - runjs&lt;/td&gt;
+      &lt;td&gt;http://runjs.cn&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;js 在线编辑 - jsbin&lt;/td&gt;
+      &lt;td&gt;http://jsbin.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;js 在线编辑 - codepen&lt;/td&gt;
+      &lt;td&gt;http://codepen.io&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;js 在线编辑 - jsfiddle&lt;/td&gt;
+      &lt;td&gt;http://jsfiddle.net&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;java 在线编辑 - runjs&lt;/td&gt;
+      &lt;td&gt;http://ideone.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;js 在线编辑 - hcharts&lt;/td&gt;
+      &lt;td&gt;http://code.hcharts.cn&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;js 在线编辑 - jsdm&lt;/td&gt;
+      &lt;td&gt;http://jsdm.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;sql 在线编辑 - sqlfiddle&lt;/td&gt;
+      &lt;td&gt;http://sqlfiddle.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;mozilla 在线编辑器&lt;/td&gt;
+      &lt;td&gt;https://thimble.mozilla.org&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;播放器&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Html5 VideoPlayer&lt;/td&gt;
+      &lt;td&gt;https://github.com/zmmbreeze/DeadSimpleVideoPlayer&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;粒子动画&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Proton 烟花&lt;/td&gt;
+      &lt;td&gt;http://a-jie.github.io/Proton/#example&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Nodejs&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;nodejs 篇幅比较巨大&lt;/td&gt;
+      &lt;td&gt;http://liuqing.pw&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Node.js 包教不包会&lt;/td&gt;
+      &lt;td&gt;https://github.com/alsotang/node-lessons&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;篇幅比较少&lt;/td&gt;
+      &lt;td&gt;http://www.rainweb.cn/article/category/Nodejs&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;node express 入门教程&lt;/td&gt;
+      &lt;td&gt;http://www.w3cfuns.com/article-5598538-1-1.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;nodejs定时任务&lt;/td&gt;
+      &lt;td&gt;http://my.oschina.net/u/568264/blog/193773&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;一个nodejs博客&lt;/td&gt;
+      &lt;td&gt;http://60sky.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;【NodeJS 学习笔记04】新闻发布系统&lt;/td&gt;
+      &lt;td&gt;http://www.cnblogs.com/yexiaochai/p/3536547.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;过年7天乐，学nodejs 也快乐&lt;/td&gt;
+      &lt;td&gt;http://www.cnblogs.com/qqloving/p/3541099.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;七天学会NodeJS&lt;/td&gt;
+      &lt;td&gt;https://github.com/nqdeng/7-days-nodejs&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Nodejs学习笔记（二）— 事件模块&lt;/td&gt;
+      &lt;td&gt;http://www.cnblogs.com/zhongweiv/p/nodejs_events.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;nodejs入门&lt;/td&gt;
+      &lt;td&gt;http://www.cnblogs.com/liusuqi/p/3735491.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;angularjs nodejs&lt;/td&gt;
+      &lt;td&gt;https://github.com/zensh/jsgen&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;从零开始nodejs系列文章&lt;/td&gt;
+      &lt;td&gt;http://blog.fens.me/series-nodejs&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;理解nodejs&lt;/td&gt;
+      &lt;td&gt;http://debuggable.com/posts/understanding-node-js:4bd98440-45e4-4a9a-8ef7-0f7ecbdd56cb&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;nodejs事件轮询&lt;/td&gt;
+      &lt;td&gt;http://blog.mixu.net/2011/02/01/understanding-the-node-js-event-loop&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;node入门&lt;/td&gt;
+      &lt;td&gt;http://www.nodebeginner.org/index-zh-cn.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;nodejs cms&lt;/td&gt;
+      &lt;td&gt;http://ourjs.com/detail/53e1f281c5910a9806000001&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Node初学者入门，一本全面的NodeJS教程&lt;/td&gt;
+      &lt;td&gt;http://ourjs.com/detail/529ca5950cb6498814000005&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;NodeJS的代码调试和性能调优&lt;/td&gt;
+      &lt;td&gt;http://www.barretlee.com/blog/2015/10/07/debug-nodejs-in-command-line&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;常规优化&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Javascript高性能动画与页面渲染&lt;/td&gt;
+      &lt;td&gt;http://www.infoq.com/cn/articles/javascript-high-performance-animation-and-page-rendering&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;移动H5前端性能优化指南&lt;/td&gt;
+      &lt;td&gt;http://isux.tencent.com/h5-performance.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;5173首页前端性能优化实践&lt;/td&gt;
+      &lt;td&gt;http://ued.5173.com/?p=1731&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;给网页设计师和前端开发者看的前端性能优化&lt;/td&gt;
+      &lt;td&gt;http://www.uisdc.com/front-end-performance-for-web-designers-and-front-end-developers&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;复杂应用的 CSS 性能分析和优化建议&lt;/td&gt;
+      &lt;td&gt;http://www.orzpoint.com/profiling-css-and-optimization-notes&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;张鑫旭——前端性能&lt;/td&gt;
+      &lt;td&gt;http://www.zhangxinxu.com/wordpress/tag/%E5%89%8D%E7%AB%AF%E6%80%A7%E8%83%BD&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;前端性能监控总结&lt;/td&gt;
+      &lt;td&gt;http://www.xiaoqiang.org/javascript/font-end-performance-monitor.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;网站性能优化之CSS无图片技术&lt;/td&gt;
+      &lt;td&gt;http://udc.weibo.com/2013/05/%E7%BD%91%E7%AB%99%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E4%B9%8Bcss%E6%97%A0%E5%9B%BE%E7%89%87%E6%8A%80%E6%9C%AF&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;web前端性能优化进阶路&lt;/td&gt;
+      &lt;td&gt;http://www.aliued.cn/2013/01/20/web%E5%89%8D%E7%AB%AF%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E8%BF%9B%E9%98%B6%E8%B7%AF.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;前端技术：网站性能优化之CSS无图片技术&lt;/td&gt;
+      &lt;td&gt;http://my.eoe.cn/tuwandou/archive/4544.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;浏览器的加载与页面性能优化&lt;/td&gt;
+      &lt;td&gt;http://www.baiduux.com/blog/2011/02/15/browser-loading&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;页面加载中的图片性能优化&lt;/td&gt;
+      &lt;td&gt;http://www.w3ctech.com/p/1503&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Hey——前端性能&lt;/td&gt;
+      &lt;td&gt;http://www.feelcss.com/tag/%E5%89%8D%E7%AB%AF%E6%80%A7%E8%83%BD&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;html优化&lt;/td&gt;
+      &lt;td&gt;http://www.baiduux.com/blog/2010/03/15/html%E4%BC%98%E5%8C%96-299&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;css——性能&lt;/td&gt;
+      &lt;td&gt;http://www.99css.com/tag/%e6%80%a7%e8%83%bd&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Yslow——性能优化&lt;/td&gt;
+      &lt;td&gt;http://www.yslow.net/category.php?cid=20&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;YSLOW中文介绍&lt;/td&gt;
+      &lt;td&gt;http://www.cnblogs.com/yslow&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;转一篇Yahoo关于网站性能优化的文章，兼谈本站要做的优化&lt;/td&gt;
+      &lt;td&gt;http://www.360ito.com/article/40.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Yahoo!团队实践分享：网站性能&lt;/td&gt;
+      &lt;td&gt;http://www.360doc.com/content/10/0928/09/2588264_56971287.shtml&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;网站性能优化指南：什么使我们的网站变慢？&lt;/td&gt;
+      &lt;td&gt;http://blog.jiasule.com/i/153&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;网站性能优化实践，减少加载时间，提高用户体验&lt;/td&gt;
+      &lt;td&gt;http://www.powereasy.net/helpyou/knowledge/ecommerce/9593.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;浅谈网站性能优化 前端篇&lt;/td&gt;
+      &lt;td&gt;http://www.umtry.com/archives/747.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;前端重构实践之如何对网站性能优化？&lt;/td&gt;
+      &lt;td&gt;http://www.adinnet.cn/blog/designview/2012-7-12/678.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;前端性能优化：使用媒体查询加载指定大小的背景图片&lt;/td&gt;
+      &lt;td&gt;http://www.gbin1.com/technology/javascript/20130708-front-end-performance-optimization-9&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;网站性能系列博文&lt;/td&gt;
+      &lt;td&gt;http://www.mykuer.com/post/factors-that-affect-the-speed-of-web-site-open.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;加载，不只是少一点点&lt;/td&gt;
+      &lt;td&gt;http://tgideas.qq.com/webplat/info/news_version3/804/808/811/m579/201109/41355.shtml&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;前端性能的测试与优化&lt;/td&gt;
+      &lt;td&gt;http://mzhou.me/article/95310&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;分享网页加载速度优化的一些技巧？&lt;/td&gt;
+      &lt;td&gt;http://www.gbin1.com/technology/html/20130217-tips-for-speed-up-page-loading&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;页面加载中的图片性能优化&lt;/td&gt;
+      &lt;td&gt;http://www.f2es.com/images-bytes-opt&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;web前端优化(基于Yslow&lt;/td&gt;
+      &lt;td&gt;http://www.tcreator.info/webSchool/website/Front-end-Opt-Yslow.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;网站性能优化工具大全&lt;/td&gt;
+      &lt;td&gt;https://www.qianduan.net/website-performance-optimization-tool.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;【高性能前端1】高性能HTML&lt;/td&gt;
+      &lt;td&gt;http://www.alloyteam.com/2012/10/high-performance-html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;【高性能前端2】高性能CSS&lt;/td&gt;
+      &lt;td&gt;http://www.alloyteam.com/2012/10/high-performance-css&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;由12306谈谈网站前端性能和后端性能优化&lt;/td&gt;
+      &lt;td&gt;http://coolshell.cn/articles/6470.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;AlloyTeam——前端优化&lt;/td&gt;
+      &lt;td&gt;http://www.alloyteam.com/webfrontend/%E5%89%8D%E7%AB%AF%E4%BC%98%E5%8C%96&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;毫秒必争，前端网页性能最佳实践&lt;/td&gt;
+      &lt;td&gt;http://www.cnblogs.com/developersupport/p/3248695.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;网站性能工具Yslow的使用方法&lt;/td&gt;
+      &lt;td&gt;http://blog.sina.com.cn/s/blog_6e9d2e0701017kvu.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;前端工程与性能优化（上）：静态资源版本更新与缓存&lt;/td&gt;
+      &lt;td&gt;http://www.infoq.com/cn/articles/front-end-engineering-and-performance-optimization-part1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;前端工程与性能优化（下）：静态资源管理与模板框架&lt;/td&gt;
+      &lt;td&gt;http://www.infoq.com/cn/articles/front-end-engineering-and-performance-optimization-part2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;HTTPS连接的前几毫秒发生了什么&lt;/td&gt;
+      &lt;td&gt;http://blog.jobbole.com/48369&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Yslow&lt;/td&gt;
+      &lt;td&gt;http://uicss.cn/yslow/#more-12319Essential&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Web Performance Metrics — A Primer, Part 1&lt;/td&gt;
+      &lt;td&gt;http://blog.smartbear.com/web-performance/essential-web-performance-metrics-a-primer-part-1Essential&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Web Performance Metrics — Part 2&lt;/td&gt;
+      &lt;td&gt;http://blog.smartbear.com/performance/essential-web-performance-metrics-part-2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;YUISlide,针对移动设备的动画性能优化&lt;/td&gt;
+      &lt;td&gt;http://jayli.github.io/blog/data/2011/12/23/yuislide.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Improving Site Performance&lt;/td&gt;
+      &lt;td&gt;http://joelglovier.com/improving-site-performance&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;让网站提速的最佳前端实践&lt;/td&gt;
+      &lt;td&gt;http://segmentfault.com/a/1190000000367899&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Why Website Speed is Important&lt;/td&gt;
+      &lt;td&gt;http://sixrevisions.com/web-development/why-website-speed-is-important&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Need for Speed – How to Improve your Website Performance&lt;/td&gt;
+      &lt;td&gt;https://www.devbridge.com/articles/need-for-speed-how-to-improve-your-website-performance&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;阿里无线前端性能优化指南 (Pt.1 加载期优化&lt;/td&gt;
+      &lt;td&gt;https://github.com/amfe/article/issues/1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;优化工具&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;JavaScript 性能分析新工具 OneProfile&lt;/td&gt;
+      &lt;td&gt;http://www.html-js.com/article/3083&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;JavaScript 堆内存分析新工具 OneHeap&lt;/td&gt;
+      &lt;td&gt;http://www.html-js.com/article/3091&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;在线工具&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;google在线工具&lt;/td&gt;
+      &lt;td&gt;https://developers.google.com/speed/pagespeed/insights&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;阿里测&lt;/td&gt;
+      &lt;td&gt;http://www.alibench.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;阿里-免费测试服务&lt;/td&gt;
+      &lt;td&gt;http://itest.aliyun.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;阿里-F2etest多浏览器兼容性测试解决方案&lt;/td&gt;
+      &lt;td&gt;https://github.com/alibaba/f2etest&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;js性能测试&lt;/td&gt;
+      &lt;td&gt;http://jsperf.com&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;前端架构&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;技术架构&lt;/td&gt;
+      &lt;td&gt;http://www.zhihu.com/topic/19612641&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;前端架构&lt;/td&gt;
+      &lt;td&gt;http://saito.im/note/The-Architecture-of-F2E&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;如何成为前端架构师&lt;/td&gt;
+      &lt;td&gt;http://www.zhihu.com/question/24092572&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;关于前端架构-张克军&lt;/td&gt;
+      &lt;td&gt;http://hikejun.com/sharing/2010webrebuild/?file=fe-infrastructure.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;百度腾讯offer比较（腾讯游戏VS百度基础架构）&lt;/td&gt;
+      &lt;td&gt;http://www.zhihu.com/question/25583350&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;推荐作品&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;winter代码片段需要翻墙&lt;/td&gt;
+      &lt;td&gt;https://gist.github.com/winter&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;cnfgm&lt;/td&gt;
+      &lt;td&gt;http://www.fgm.cc/learn&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;岑安作品集&lt;/td&gt;
+      &lt;td&gt;https://github.com/hongru/hongru.github.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;当耐特demo集合&lt;/td&gt;
+      &lt;td&gt;http://kmdjs.github.io&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;米空格 js作品&lt;/td&gt;
+      &lt;td&gt;http://www.laoshu133.com/Labmy&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Focus&lt;/td&gt;
+      &lt;td&gt;http://koen301.github.io&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;SeaJS组件库&lt;/td&gt;
+      &lt;td&gt;http://panxuepeng.github.io/seajslib&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;颜海镜作品&lt;/td&gt;
+      &lt;td&gt;http://yanhaijing.com/myProject&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;脚儿网作品&lt;/td&gt;
+      &lt;td&gt;http://jo2.org/category/myworks&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;javascript个人作品&lt;/td&gt;
+      &lt;td&gt;http://www.cnitblog.com/yemoo/category/3107.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;妙味的雷东升游戏作品&lt;/td&gt;
+      &lt;td&gt;http://bbs.miaov.com/forum.php?mod=viewthread&amp;amp;tid=7790&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;javascript作品集&lt;/td&gt;
+      &lt;td&gt;http://bbs.csdn.net/topics/380227212&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;云五笔，灰度产生生成工具&lt;/td&gt;
+      &lt;td&gt;https://github.com/TooBug/works&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;项目主页&lt;/td&gt;
+      &lt;td&gt;http://koen301.github.io&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;个性的作品主页&lt;/td&gt;
+      &lt;td&gt;http://zaole.net&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;播放器&lt;/td&gt;
+      &lt;td&gt;http://static.tingall.com/v2/player&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ucren js demos 集&lt;/td&gt;
+      &lt;td&gt;http://ucren.com/blog/demos&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;智能社&lt;/td&gt;
+      &lt;td&gt;http://www.zhinengshe.com/works_list.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;实例陈列架&lt;/td&gt;
+      &lt;td&gt;http://demos.shizuwu.cn&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;zoye demo&lt;/td&gt;
+      &lt;td&gt;http://zoye.sinaapp.com/demo&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;王员外&lt;/td&gt;
+      &lt;td&gt;http://lab.yuanwai.wang&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;平凡&lt;/td&gt;
+      &lt;td&gt;http://pingfan1990.sinaapp.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;jyg 游戏案例&lt;/td&gt;
+      &lt;td&gt;http://www.lovewebgames.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;很多jquery插件&lt;/td&gt;
+      &lt;td&gt;http://www.helloweba.com/list.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;不羁虫 - soJs 作品系列&lt;/td&gt;
+      &lt;td&gt;http://www.bujichong.com/sojs/api/index.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;frozenui&lt;/td&gt;
+      &lt;td&gt;http://frozenui.github.io/case.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;黑白棋&lt;/td&gt;
+      &lt;td&gt;http://js-game.github.io/othello&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;fromone&lt;/td&gt;
+      &lt;td&gt;http://yansm.github.io/fromone/index.html&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;国外大牛精品&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;pazguille&lt;/td&gt;
+      &lt;td&gt;http://pazguille.me&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;简历模板&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;不错的个人简历&lt;/td&gt;
+      &lt;td&gt;http://learnshare.github.io/about/index.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;简历&lt;/td&gt;
+      &lt;td&gt;http://hcy2367.github.io/resume&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;张伦&lt;/td&gt;
+      &lt;td&gt;http://ncuey.sinaapp.com/CrispElite/&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;简历&lt;/td&gt;
+      &lt;td&gt;https://github.com/hacke2/ResumeSample&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;翁天信&lt;/td&gt;
+      &lt;td&gt;http://blog.dandyweng.com/2013/07/how-my-website-was-created&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;动画方式的简历&lt;/td&gt;
+      &lt;td&gt;http://www.webhek.com/misc/interactive-resume&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;组件丰富简历&lt;/td&gt;
+      &lt;td&gt;http://www.linqing07.com/resume.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;简历池&lt;/td&gt;
+      &lt;td&gt;http://www.mojianli.com/resume/viewhaorooms&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;博客&lt;/td&gt;
+      &lt;td&gt;http://www.haorooms.com/aboutJustin&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Young&lt;/td&gt;
+      &lt;td&gt;http://cv.youngdze.com&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;面试题&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;那几个月在找工作（百度，网易游戏）&lt;/td&gt;
+      &lt;td&gt;http://www.nowcoder.com/discuss/31962014&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;最新面试题&lt;/td&gt;
+      &lt;td&gt;http://www.html-js.com/article/1743&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;阿里前端面试题&lt;/td&gt;
+      &lt;td&gt;http://www.w3cfuns.com/thread-5598563-2-1.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2016校招内推 – 阿里巴巴前端 – 三面面试经历&lt;/td&gt;
+      &lt;td&gt;http://www.cnblogs.com/imwtr/p/4685546.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;腾讯面试题&lt;/td&gt;
+      &lt;td&gt;http://www.w3cfuns.com/article-5599657-1-1.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;年后跳槽那点事：乐视+金山+360面试之行&lt;/td&gt;
+      &lt;td&gt;http://www.cnblogs.com/lvdabao/p/3660707.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;阿里前端面试题上线&lt;/td&gt;
+      &lt;td&gt;http://fatesinger.com/2722.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;拉勾网js面试题&lt;/td&gt;
+      &lt;td&gt;http://www.cnblogs.com/52cik/p/js-question-lg.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;前端面试&lt;/td&gt;
+      &lt;td&gt;http://www.cnblogs.com/allenxing/p/3724382.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Web开发笔试面试题 大全&lt;/td&gt;
+      &lt;td&gt;http://mianshiti.diandian.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;前端开发面试题&lt;/td&gt;
+      &lt;td&gt;http://segmentfault.com/a/11900000004654312014&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;最新前端面试题&lt;/td&gt;
+      &lt;td&gt;https://github.com/markyun/My-blog/tree/master/Front-end-Developer-Questions&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;百度面试&lt;/td&gt;
+      &lt;td&gt;https://github.com/fex-team/interview-questions&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;面试题&lt;/td&gt;
+      &lt;td&gt;http://www.w3cfuns.com/forum.php?mod=forumdisplay&amp;amp;fid=51&amp;amp;filter=typeid&amp;amp;typeid=177&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;前端工作面试问题&lt;/td&gt;
+      &lt;td&gt;https://github.com/darcyclarke/Front-end-Developer-Interview-Questions/tree/master/Chinese&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;前端开发面试题&lt;/td&gt;
+      &lt;td&gt;http://segmentfault.com/a/11900000004654&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;315个经典的前端面试问题&lt;/td&gt;
+      &lt;td&gt;http://ourjs.com/detail/5%E4%B8%AA%E7%BB%8F%E5%85%B8%E7%9A%84%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;最全前端面试问题及答案总结&lt;/td&gt;
+      &lt;td&gt;http://segmentfault.com/a/1190000002562454&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;如何面试一名前端开发工程师？&lt;/td&gt;
+      &lt;td&gt;http://www.html-js.com/article/Large-search-front-team-column%202961&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;史上最全 前端开发面试问题及答案整理&lt;/td&gt;
+      &lt;td&gt;https://github.com/hawx1993/Front-end-Interview-questions&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;前端实习生面试总结&lt;/td&gt;
+      &lt;td&gt;http://www.cnblogs.com/xiaoruo/p/4665163.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;史上最全 前端开发面试问题及答案整理&lt;/td&gt;
+      &lt;td&gt;https://github.com/hawx1993/Front-end-Interview-questions&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;BAT及各大互联网公司2014前端笔试面试题：JavaScript篇&lt;/td&gt;
+      &lt;td&gt;http://blog.jobbole.com/78738&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;前端开发面试题大收集&lt;/td&gt;
+      &lt;td&gt;https://github.com/paddingme/Front-end-Web-Development-Interview-Question&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;收集的前端面试题和答案&lt;/td&gt;
+      &lt;td&gt;https://github.com/qiu-deqing/FE-interview&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;如何面试前端工程师&lt;/td&gt;
+      &lt;td&gt;http://www.zhihu.com/question/19568008&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;前端开发面试题&lt;/td&gt;
+      &lt;td&gt;https://github.com/markyun/My-blog/blob/master/Front-end-Developer-Questions/Questions-and-Answers/README.md&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;牛客网-笔试面经&lt;/td&gt;
+      &lt;td&gt;http://www.nowcoder.com/discuss?type=2&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;iconfont&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;中文字体&lt;/td&gt;
+      &lt;td&gt;http://www.zhihu.com/question/21253343&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;淘宝字库&lt;/td&gt;
+      &lt;td&gt;http://iconfont.cn&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;字体&lt;/td&gt;
+      &lt;td&gt;http://mux.alimama.com/fonts&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;制作教程&lt;/td&gt;
+      &lt;td&gt;http://iconfont.cn/help/platform.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;zhangxinxu-icommon&lt;/td&gt;
+      &lt;td&gt;http://www.zhangxinxu.com/wordpress/?s=icomoon&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;icommon&lt;/td&gt;
+      &lt;td&gt;https://icomoon.io/app&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;用字体在网页中画ICON图标(推荐教程&lt;/td&gt;
+      &lt;td&gt;http://imooc.com/learn/243&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;字体压缩工具&lt;/td&gt;
+      &lt;td&gt;http://font-spider.org&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;前端开发工具&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;IntelliJ IDEA 简体中文专题教程&lt;/td&gt;
+      &lt;td&gt;https://github.com/judasn/IntelliJ-IDEA-Tutorial&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Webstorm,InterllIdea,Phpstorm&lt;/td&gt;
+      &lt;td&gt;http://t.cn/8kZZ1Uy&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;SublimeText&lt;/td&gt;
+      &lt;td&gt;https://github.com/jikeytang/sublime-text&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Atom&lt;/td&gt;
+      &lt;td&gt;https://atom.io&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;visual studio code&lt;/td&gt;
+      &lt;td&gt;https://code.visualstudio.com&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Fiddler&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Fiddler调式使用知多少(一深入研究&lt;/td&gt;
+      &lt;td&gt;http://www.cnblogs.com/tugenhua0707/p/4623317.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;微信fiddle&lt;/td&gt;
+      &lt;td&gt;http://www.cnblogs.com/strick/p/4570006.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;微信fiddle&lt;/td&gt;
+      &lt;td&gt;http://gaoboy.com/article/26.html&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Chrome&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Google Chrome 官方&lt;/td&gt;
+      &lt;td&gt;https://developer.chrome.com/devtools&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Chrome - 基础&lt;/td&gt;
+      &lt;td&gt;http://www.cnblogs.com/constantince/p/4565261.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Chrome - 进阶&lt;/td&gt;
+      &lt;td&gt;http://www.cnblogs.com/constantince/p/4579121.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Chrome - 性能&lt;/td&gt;
+      &lt;td&gt;http://www.cnblogs.com/constantince/p/4585983.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Chrome - 性能进阶&lt;/td&gt;
+      &lt;td&gt;http://www.cnblogs.com/constantince/p/4607497.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Chrome - 移动&lt;/td&gt;
+      &lt;td&gt;http://www.cnblogs.com/constantince/p/4624241.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Chrome - 使用技巧&lt;/td&gt;
+      &lt;td&gt;http://www.cnblogs.com/liyunhua/p/4544738.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Chrome - Console控制台不完全指南&lt;/td&gt;
+      &lt;td&gt;http://www.cnblogs.com/Wayou/p/chrome-console-tips-and-tricks.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Chrome - Workspace使浏览器变成IDE&lt;/td&gt;
+      &lt;td&gt;http://c7sky.com/chrome-devtools-workspace.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;network面板&lt;/td&gt;
+      &lt;td&gt;http://www.html-js.com/article/Nothing-blind%202975&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;chrome开发工具快捷键&lt;/td&gt;
+      &lt;td&gt;http://anti-code.com/devtools-cheatsheet&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;chrome调试工具常用功能整理&lt;/td&gt;
+      &lt;td&gt;http://www.html-js.com/article/2327&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Chrome 开发工具 Workspace 使用&lt;/td&gt;
+      &lt;td&gt;http://www.iinterest.net/2014/05/09/chrome-dev-tool-workspace&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Chrome神器Vimium快捷键学习记录&lt;/td&gt;
+      &lt;td&gt;http://www.cppblog.com/deercoder/archive/2011/10/22/158886.htm&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;lsass调试-w3cplus&lt;/td&gt;
+      &lt;td&gt;http://www.w3cplus.com/sassguide/debug.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;如何更专业的使用Chrome开发者工具-w3cplus&lt;/td&gt;
+      &lt;td&gt;http://www.w3cplus.com/tools/how-to-use-chrome-devtools-like-a-pro.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;chrome调试canvas&lt;/td&gt;
+      &lt;td&gt;http://sentsin.com/web/253.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;chrome profiles1&lt;/td&gt;
+      &lt;td&gt;https://developer.chrome.com/devtools/index&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;chrome profiles2&lt;/td&gt;
+      &lt;td&gt;http://h5dev.uc.cn/article-25-1.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;chrome profiles3&lt;/td&gt;
+      &lt;td&gt;http://www.oschina.net/translate/performance-optimisation-with-timeline-profiles&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;chrome移动版调试&lt;/td&gt;
+      &lt;td&gt;https://developer.chrome.com/devtools/docs/mobile-emulation&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;chrome调试&lt;/td&gt;
+      &lt;td&gt;http://ued.taobao.org/blog/2012/06/debug-with-chrome-dev-tool&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;chrome的调试&lt;/td&gt;
+      &lt;td&gt;http://www.cnblogs.com/QLeelulu/archive/2011/08/28/2156402.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;chrome console 命令详解&lt;/td&gt;
+      &lt;td&gt;https://developer.chrome.com/devtools/docs/commandline-api&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;查看事件绑定1&lt;/td&gt;
+      &lt;td&gt;http://www.cnblogs.com/leonkao/p/3809655.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;查看事件绑定2&lt;/td&gt;
+      &lt;td&gt;http://www.cnblogs.com/xiaoyao2011/p/3447421.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;神器——Chrome开发者工具(一&lt;/td&gt;
+      &lt;td&gt;http://segmentfault.com/a/1190000000683599&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;奇趣百科性能优化(Chrome DevTools 中的 Timeline Profils 等工具使用介绍&lt;/td&gt;
+      &lt;td&gt;https://xinranliu.me/2015-05-22-qiqu-performance&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;chrome 开发者工具的 15 个小技巧&lt;/td&gt;
+      &lt;td&gt;http://frontenddev.org/link/15-tips-of-chrome-developer-tools.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Chrome开发者工具不完全指南&lt;/td&gt;
+      &lt;td&gt;http://1ke.co/course/361&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Chrome 开发者工具使用技巧&lt;/td&gt;
+      &lt;td&gt;http://segmentfault.com/a/1190000003882567&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Firebug&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;firebug视频教程&lt;/td&gt;
+      &lt;td&gt;http://www.imooc.com/learn/137&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;firefox 模拟器&lt;/td&gt;
+      &lt;td&gt;https://developer.mozilla.org/zh-CN/docs/Tools/WebIDE&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;console.log 命令详解&lt;/td&gt;
+      &lt;td&gt;http://www.cnblogs.com/ctriphire/p/4116207.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Firebug入门指南&lt;/td&gt;
+      &lt;td&gt;http://www.ruanyifeng.com/blog/2008/06/firebug_tutorial.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Firebug控制台详解&lt;/td&gt;
+      &lt;td&gt;http://www.ruanyifeng.com/blog/2011/03/firebug_console_tutorial.html&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;移动,微信调试&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;浏览器端调试安卓&lt;/td&gt;
+      &lt;td&gt;https://openstf.github.io&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;移动端前端开发调试&lt;/td&gt;
+      &lt;td&gt;http://yujiangshui.com/multidevice-frontend-debug&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;使用 Chrome 远程调试 Android 设备&lt;/td&gt;
+      &lt;td&gt;https://github.com/yujiangshui/CN-Chrome-DevTools/blob/remote-debugging/md/Use-Tools/remote-debugging.md&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;mac移动端调试&lt;/td&gt;
+      &lt;td&gt;http://plus.uc.cn/document/webapp/doc5.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;mac移动端调试&lt;/td&gt;
+      &lt;td&gt;http://www.mihtool.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;无线调试攻略&lt;/td&gt;
+      &lt;td&gt;http://thx.github.io/mobile/debugging-in-mobile&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;无线调试攻略&lt;/td&gt;
+      &lt;td&gt;http://yanhaijing.com/mobile/2014/12/17/web-debug-for-mobile&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;屌爆了,完美调试 微信webview(x5&lt;/td&gt;
+      &lt;td&gt;http://www.jianshu.com/p/ccf124f1f74b&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;微信调试的那些事&lt;/td&gt;
+      &lt;td&gt;http://liyaodong.com/2015/07/06/%E5%BE%AE%E4%BF%A1%E8%B0%83%E8%AF%95%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%8B&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;远程console&lt;/td&gt;
+      &lt;td&gt;http://jsconsole.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;微信调试工具&lt;/td&gt;
+      &lt;td&gt;http://blog.qqbrowser.cc&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;各种真机远程调试方法汇总&lt;/td&gt;
+      &lt;td&gt;https://github.com/jieyou/remote_inspect_web_on_real_device&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;iOS Simulator&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Simulator&lt;/td&gt;
+      &lt;td&gt;https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/iOS_Simulator_Guide/Introduction/Introduction.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Xcode中的iOS模拟器(iOS Simulator的介绍和使用心得&lt;/td&gt;
+      &lt;td&gt;http://www.crifan.co/intro_ios_simulator_in_xcode_and_usage_summary&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;img&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;loading img&lt;/td&gt;
+      &lt;td&gt;http://preloaders.net/en/circular&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;智图-图片优化平台&lt;/td&gt;
+      &lt;td&gt;http://zhitu.isux.us&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;在线png优化&lt;/td&gt;
+      &lt;td&gt;https://tinypng.com&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;生成二维码&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;生成二维码&lt;/td&gt;
+      &lt;td&gt;http://cli.im浏览器&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;同步&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;puer&lt;/td&gt;
+      &lt;td&gt;https://github.com/leeluolee/puer&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;liveReload&lt;/td&gt;
+      &lt;td&gt;http://livereload.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;f5&lt;/td&gt;
+      &lt;td&gt;http://getf5.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;File Watchers&lt;/td&gt;
+      &lt;td&gt;http://geek100.com/2608&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;在线PPT制作&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;nodePPT&lt;/td&gt;
+      &lt;td&gt;http://js8.in/2013/11/16/%E6%8E%A8%E8%8D%90nodeppt%EF%BC%9A%E4%BD%BF%E7%94%A8markdown%E8%AF%AD%E6%B3%95%E6%9D%A5%E5%86%99%E7%BD%91%E9%A1%B5ppt&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;PPT&lt;/td&gt;
+      &lt;td&gt;https://github.com/ksky521/node&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;PPTreveal&lt;/td&gt;
+      &lt;td&gt;https://github.com/hakimel/reveal.js&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;slippy&lt;/td&gt;
+      &lt;td&gt;https://github.com/Seldaek/slippy&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;前端导航网站&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;界面清爽的前端导航&lt;/td&gt;
+      &lt;td&gt;http://uxbees.com/index.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;前端导航&lt;/td&gt;
+      &lt;td&gt;http://whycss.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;前端网址导航&lt;/td&gt;
+      &lt;td&gt;http://www.daqianduan.com/nav&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;前端名录&lt;/td&gt;
+      &lt;td&gt;http://sentsin.com/daohang&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;前端导航&lt;/td&gt;
+      &lt;td&gt;http://123.jser.us&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;前端开发资源&lt;/td&gt;
+      &lt;td&gt;http://www.css88.com/nav&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;网址导航&lt;/td&gt;
+      &lt;td&gt;http://www.haourl.cn&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;前端开发仓库 - 众多效果的收集地&lt;/td&gt;
+      &lt;td&gt;http://code.ciaoca.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;前端资源导航&lt;/td&gt;
+      &lt;td&gt;https://github.com/jnoodle/f2e-collect&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;F2E 前端导航&lt;/td&gt;
+      &lt;td&gt;http://f2e.im/static/pages/nav/index.html&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;常用CDN&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;新浪CDN&lt;/td&gt;
+      &lt;td&gt;http://lib.sinaapp.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;百度静态资源公共库&lt;/td&gt;
+      &lt;td&gt;http://cdn.code.baidu.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;360网站卫士常用前端公共库CDN服务&lt;/td&gt;
+      &lt;td&gt;http://libs.useso.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Bootstrap中文网开源项目免费 CDN 服务&lt;/td&gt;
+      &lt;td&gt;http://www.bootcdn.cn&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;开放静态文件 CDN - 七牛&lt;/td&gt;
+      &lt;td&gt;http://staticfile.org&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CDN加速 - jq22&lt;/td&gt;
+      &lt;td&gt;http://www.jq22.com/cdn&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;jQuery CDN&lt;/td&gt;
+      &lt;td&gt;http://code.jquery.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Google jQuery CDN&lt;/td&gt;
+      &lt;td&gt;http://www.google-jquery-cdn.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;微软CDN&lt;/td&gt;
+      &lt;td&gt;http://www.asp.net/ajax/cdn&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Git&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;git-scm&lt;/td&gt;
+      &lt;td&gt;http://git-scm.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;廖雪峰-Git教程&lt;/td&gt;
+      &lt;td&gt;http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;git-for-windows&lt;/td&gt;
+      &lt;td&gt;https://git-for-windows.github.io&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;GitHub 添加 SSH keys&lt;/td&gt;
+      &lt;td&gt;http://daemon369.github.io/git/2015/03/10/add-ssh-keys-for-github&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;gogithub&lt;/td&gt;
+      &lt;td&gt;http://www.worldhello.net/gotgithub/index.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;git常规命令练习&lt;/td&gt;
+      &lt;td&gt;http://pcottle.github.io/learnGitBranching&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;git的资料整理&lt;/td&gt;
+      &lt;td&gt;https://github.com/xirong/my-git&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;我所记录的git命令（非常实用）&lt;/td&gt;
+      &lt;td&gt;http://www.cnblogs.com/fanfan259/p/4810517.html&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;企业开发git工作流模式探索部分休整&lt;/td&gt;
+      &lt;td&gt;https://github.com/xirong/my-git/blob/master/git-workflow-tutorial.md&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;GitHub 漫游指南&lt;/td&gt;
+      &lt;td&gt;https://github.com/phodal/github-roam&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;GitHub秘籍&lt;/td&gt;
+      &lt;td&gt;https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.zh-cn.md&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;使用git和github进行协同开发流程&lt;/td&gt;
+      &lt;td&gt;http://livoras.com/post/28&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;动画方式练习git&lt;/td&gt;
+      &lt;td&gt;http://onlywei.github.io/explain-git-with-d3&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;优秀JavaScript项目&lt;/th&gt;
+      &lt;th&gt;地址&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Angular和Webpack种子文件&lt;/td&gt;
+      &lt;td&gt;https://github.com/AngularClass/angular2-webpack-starter&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Fis3面向前端的工程构建系统&lt;/td&gt;
+      &lt;td&gt;https://github.com/fex-team/fis3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Fis3 DEMO&lt;/td&gt;
+      &lt;td&gt;https://github.com/fex-team/fis3-demo&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;前端JQuery系列:源码剖析&lt;/td&gt;
+      &lt;td&gt;https://github.com/JsAaron/jQuery&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;avalon框架&lt;/td&gt;
+      &lt;td&gt;https://github.com/RubyLouvre/avalon&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Microsoft ChakraCore 微软的Chakra引擎&lt;/td&gt;
+      &lt;td&gt;https://github.com/Microsoft/ChakraCore&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Quintus HTML游戏引擎&lt;/td&gt;
+      &lt;td&gt;https://github.com/cykod/Quintus&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;一个用node.js搭建的有趣博客&lt;/td&gt;
+      &lt;td&gt;https://github.com/STRML/strml.net&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Web前端助手–FeHelper（Chrome扩展）&lt;/td&gt;
+      &lt;td&gt;https://github.com/zxlie/FeHelper&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;百度前端技术学院&lt;/td&gt;
+      &lt;td&gt;https://github.com/baidu-ife/ife&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Cheerio（node.js中的jQuery）&lt;/td&gt;
+      &lt;td&gt;https://github.com/cheeriojs/cheerio&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;nodejs的一个聊天软件 类似微信&lt;/td&gt;
+      &lt;td&gt;https://github.com/BryanYang/freechat&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;使用html5和node.js构建的网易云音乐&lt;/td&gt;
+      &lt;td&gt;https://github.com/stkevintan/Cubebabel&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ES6转换为ES5&lt;/td&gt;
+      &lt;td&gt;https://github.com/babel/babel&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;一个JS富文本编辑器&lt;/td&gt;
+      &lt;td&gt;https://github.com/fex-team/ueditor&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;一个JS脑图可视化工具&lt;/td&gt;
+      &lt;td&gt;https://github.com/fex-team/kityminder-core&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;一个JS写的Flappy Bird Game&lt;/td&gt;
+      &lt;td&gt;https://github.com/ellisonleao/clumsy-bird&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;一个JS写的GBA模拟器&lt;/td&gt;
+      &lt;td&gt;https://github.com/taisel/IodineGBASegmentFault&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;写的Markdown解析器&lt;/td&gt;
+      &lt;td&gt;https://github.com/SegmentFault/HyperDown.js&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;基于node.js的Ghost博客&lt;/td&gt;
+      &lt;td&gt;https://github.com/TryGhost/Ghost&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;学习react的demos&lt;/td&gt;
+      &lt;td&gt;https://github.com/ruanyf/react-demos&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">综合类 地址 前端知识体系 http://www.cnblogs.com/sb19871023/p/3894452.html 前端知识结构 https://github.com/JacksonTian/fks 免费的编程中文书籍索引 https://github.com/justjavac/free-programming-books-zh_CN 智能社 - 精通JavaScript开发 http://study.163.com/course/introduction/224014.htm(视频教学) 重新介绍 JavaScript（JS 教程） https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/A_re-introduction_to_JavaScript(文字教学) 麻省理工学院公开课：计算机科学及编程导论 http://v.163.com/special/opencourse/bianchengdaolun.html JavaScript中的this陷阱的最全收集–没有之一 http://segmentfault.com/a/1190000002640298 JS函数式编程指南 https://llh911001.gitbooks.io/mostly-adequate-guide-chinese/content/ch1.html JavaScript Promise迷你书（中文版） http://liubin.github.io/promises-book 腾讯移动Web前端知识库 https://github.com/AlloyTeam/Mars 大前端工具集 - 聂微东 https://github.com/nieweidong/fetool Web Front-end Stack v2.2 https://raw.githubusercontent.com/unruledboy/WebFrontEndStack/master/Web%20Front%20End%20Stack.png</summary></entry></feed>
